@@ -1,0 +1,679 @@
+0000000000000000000000000000000000000000 fb6783d66550d828da29179ddb3e11b59d6548c6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253460 +0800	commit (initial): clean kernel
+fb6783d66550d828da29179ddb3e11b59d6548c6 0756b9b5a94c2a932b201add9a3515be1cd9599d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00081147 Support i.MX35 3stack board
+0756b9b5a94c2a932b201add9a3515be1cd9599d e8aa9722a601b24b993a85f41991c06b692ca559 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00094618 Update .gitignore configure file
+e8aa9722a601b24b993a85f41991c06b692ca559 80c805c0302113e7b1c6ee5e54e4188abfcf82a6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00094619 Support i.MX31 3stack board
+80c805c0302113e7b1c6ee5e54e4188abfcf82a6 37061aa16a38a276e83df9642ee10f1754981850 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00099697 Add nand driver for mx35
+37061aa16a38a276e83df9642ee10f1754981850 39a516f60723f614bacf88f48ba895ec3925fe37 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00102776 Support boot from NAND on i.mx35 3stack TO1
+39a516f60723f614bacf88f48ba895ec3925fe37 43756c429b41ceb03a7b607cd5ba793237088921 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00102788 Remove CONFIG_NAND_BOOT on i.MX31 3stack
+43756c429b41ceb03a7b607cd5ba793237088921 1c3cd62752cdb8c04202068579bad6c7e37a47d1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00103914 Support i.MX35 TO2 and 3stack board version 2
+1c3cd62752cdb8c04202068579bad6c7e37a47d1 784ca8ca8307b7ec5324357f21aafc4f7ded1a8b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00104583 MX35 can not boot up kernel
+784ca8ca8307b7ec5324357f21aafc4f7ded1a8b 43549648d8fee579c3bdf27471143b6035231335 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00107886 Porting MX31, MX35 3stack to u-boot V2009.01
+43549648d8fee579c3bdf27471143b6035231335 d56a7ea7907b6ce24a68c092f18569ba4bdaab66 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00108473 Porting i.MX51 3stack TO2 support to V2009.01
+d56a7ea7907b6ce24a68c092f18569ba4bdaab66 ff256efef923a907803dec62aa7b3cc96e2acc07 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253463 +0800	am: ENGR00108673 Add i.MX25 core to U-Boot
+ff256efef923a907803dec62aa7b3cc96e2acc07 8845f29339e3bdb240a04fbc4a47630aea5d8da2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00107840 Add U-Boot for MX25 PDK board
+8845f29339e3bdb240a04fbc4a47630aea5d8da2 b0ebe02d747632f31e607fc061ce221b69a33a8b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00109851 Add nand driver for MX51 uboot
+b0ebe02d747632f31e607fc061ce221b69a33a8b 9f091df2d337182d0474fee57ffd27d884e2e9dc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00110586 MX31: Resolve Copyright issue for mx31 files
+9f091df2d337182d0474fee57ffd27d884e2e9dc e0e0425f42c06b0526f21b920f0499a20e3043aa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00112298 BBG2: Basic boot.
+e0e0425f42c06b0526f21b920f0499a20e3043aa 6da8e630bbfd4c9dec88cac32140ed51d5b348d5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00112273 BBG2: MMC boot support.
+6da8e630bbfd4c9dec88cac32140ed51d5b348d5 9674cf05ed72e687f51ef2e3392b5bcce86a5a45 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00112845 spi nor boot and pmic support for BBG2.
+9674cf05ed72e687f51ef2e3392b5bcce86a5a45 5c5b8b707b7e122ea4f38800085079986f0d0366 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00113148 Add build option to uboot for different media type
+5c5b8b707b7e122ea4f38800085079986f0d0366 fcc0137c04e7cdbe92880437a02e551dcf906ee7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00113439: BBG2, enable SPI NOR and MMC in one image.
+fcc0137c04e7cdbe92880437a02e551dcf906ee7 23a6c798b5b8e9d9a677d98c0876ca7ae0e80f1b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00113475: Add auto-complete and platform prompt for each platform.
+23a6c798b5b8e9d9a677d98c0876ca7ae0e80f1b ea8c874215bcfce1075590916e7402e6bff6bc07 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00113611: Add FEC support for BBG2.
+ea8c874215bcfce1075590916e7402e6bff6bc07 96ca54bbb6f415b710760f0113a9681c820b97e7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00111465: Remove Watchdog disable codes in MX51 uboot.
+96ca54bbb6f415b710760f0113a9681c820b97e7 19ff380f6a5d01fb64124dfb600761f536f10c1a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00114233 Add support for programming ubifs image on nand flash
+19ff380f6a5d01fb64124dfb600761f536f10c1a def3221e3017a619c895ab0a99c9ea9e2f1d8d87 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00114236 Disable NAND driver interleave mode support
+def3221e3017a619c895ab0a99c9ea9e2f1d8d87 d6b9ae01a876714b18d4c86f71847848bf5331a8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00114201: Add MMC configs to mx35 3stack config file.
+d6b9ae01a876714b18d4c86f71847848bf5331a8 71a95ccbe0e1995177995dfba029566f29c0bb34 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253464 +0800	am: ENGR00114178 Support MMC/SD boot and enable dhcp in uboot on MX25
+71a95ccbe0e1995177995dfba029566f29c0bb34 5309e08ba5c37a892d95b3e72200a5a2044fe33f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00114393: Support Atmel AT45DB321D SPI NOR flash.
+5309e08ba5c37a892d95b3e72200a5a2044fe33f 3c85d536bc69739749663af4eaca0e0a14b5dc53 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00114367: Add BABBAGE machine id, BBG2.5 rev id for rootfs init.
+3c85d536bc69739749663af4eaca0e0a14b5dc53 cde08b8eb3e54ddee16f80b830739e6f71a68c62 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00114746: Disable flash header for mx35 nand boot
+cde08b8eb3e54ddee16f80b830739e6f71a68c62 3f1659317b290026abe15021b6e8737ffa8e4915 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00113941 MX233: Make UBOOT v2009.01 work on EVK board
+3f1659317b290026abe15021b6e8737ffa8e4915 5c1fbfaa71a765d536fc5ac20cec54fac40149cf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00115333: Enable cp command for MMC
+5c1fbfaa71a765d536fc5ac20cec54fac40149cf 123af7a4fa2384de1423b3a80cfce3fd0c1620fc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00115046: Add new MMC config option for mx35.
+123af7a4fa2384de1423b3a80cfce3fd0c1620fc 7b00e8298010ae755e0b25912ccff34b46203b4b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00115592: Replace whitespaces with tabs in Makefile
+7b00e8298010ae755e0b25912ccff34b46203b4b 75b1644e1d7f7d97dd8c7abde86cf37347b432e7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00116140 MX51 3stack low level does not set M4IF correctly
+75b1644e1d7f7d97dd8c7abde86cf37347b432e7 7b799d80f66eb242d53ed5c3d52ef153e7f9507e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00116083: Recovery mode support for Android on mx51.
+7b799d80f66eb242d53ed5c3d52ef153e7f9507e aaad5e86e9509019373ded82e03f200dc215ee4e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00116203: Change nand Makefile to use CONFIG_MXC_NAND.
+aaad5e86e9509019373ded82e03f200dc215ee4e 5753a608a6daa7667cdffc43c9240ed94f537344 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00116243: I2C support for mx51 3ds board.
+5753a608a6daa7667cdffc43c9240ed94f537344 53dd653fe2686b0d2a031609a72f72481f01815c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00116472-1 U-BOOT upgrade to V2009.08
+53dd653fe2686b0d2a031609a72f72481f01815c cd6742c3ef76ce3d16a1aa82695b9d51361661a2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: u-boot v2009.08 sd/mmc support.
+cd6742c3ef76ce3d16a1aa82695b9d51361661a2 84514561b347208c354647214689ae0967ac1c54 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253465 +0800	am: ENGR00116504-1: Sync clock and l2cc code with redboot.
+84514561b347208c354647214689ae0967ac1c54 33c977098d6a4bf21b6553d4a8cad7e1662ad7aa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00116504-2: Add mx51 bbg to3 support.
+33c977098d6a4bf21b6553d4a8cad7e1662ad7aa f1820bfe9c19a8d162deb0b17a88c31e7fc000f1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00116924 Uboot: Boot up hang at detecting NAND when cold boot
+f1820bfe9c19a8d162deb0b17a88c31e7fc000f1 1cbe672c49036f6b92304d5d7d12ccac92ab6b22 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00117616: PATA support in u-boot.
+1cbe672c49036f6b92304d5d7d12ccac92ab6b22 61eed27f85577d91a1cfa10db1a3e2ce16d8dcdf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00116772 Workaround for ARM errata ID #468414
+61eed27f85577d91a1cfa10db1a3e2ce16d8dcdf fce53d31a150c208076d1c047129be418b8fe23b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118294: Misc changes for v2009.08 upgrade.
+fce53d31a150c208076d1c047129be418b8fe23b ccba6baef8206e7190e6cf76b4704d3fd246f7e3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118362: Correct recovery NAND cmd
+ccba6baef8206e7190e6cf76b4704d3fd246f7e3 618669daf082e248725eff3935fa349f008e80dd qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118428 MX233 Uboot: reslove the build error for branch imx_v2009.08
+618669daf082e248725eff3935fa349f008e80dd 0879cb4ec71a8c930d103a206c251cb7b067a810 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118576 MX25: Support Smc911x ethernet
+0879cb4ec71a8c930d103a206c251cb7b067a810 839728ac8757a19cc2e4793c4d3e3e5472e58882 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118647 Fix smc911x receive packet length not set correctly
+839728ac8757a19cc2e4793c4d3e3e5472e58882 c004647c901677d4cf57414838a340e729dd9f38 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118682 Update the MX25 MAX Priority
+c004647c901677d4cf57414838a340e729dd9f38 c9e63e1c82f0911bc42599f9a9f3a590b77482c1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118816 Fix reboot/reset failure with image on nand
+c9e63e1c82f0911bc42599f9a9f3a590b77482c1 1ccff7ffcfe2f1ac400132e72cdea90b6d3447cd qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118751: Some mmc card can't read and write from right offset.
+1ccff7ffcfe2f1ac400132e72cdea90b6d3447cd 5913bff288a3db1251a298ce1d73549b1f359c8a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118801: Unknown information when booting from SPI-NOR.
+5913bff288a3db1251a298ce1d73549b1f359c8a 770681265a8df0941e78ad20382f898c8f8ba7db qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118579 Enable MMU
+770681265a8df0941e78ad20382f898c8f8ba7db ffd187b088a0f3375df9058fa1626fd9ac59a54c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253466 +0800	am: ENGR00118978: Timer adjustment for all platforms
+ffd187b088a0f3375df9058fa1626fd9ac59a54c 9653371ae9930eabea1d683f694b98070122dd11 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00118789 Uboot:Update NAND scan scheme to support new nand type
+9653371ae9930eabea1d683f694b98070122dd11 c413ea0df56ee410a2f8be1088525501a6e6c81c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119133: MX35 can't boot due to wrong frequency setting
+c413ea0df56ee410a2f8be1088525501a6e6c81c f2ac66739b2b4a9c6a66879a5ea447ac2ec8977b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119171: ubifs support for android recovery mode.
+f2ac66739b2b4a9c6a66879a5ea447ac2ec8977b dc96d57446bc05fdcf1af2c5a2addad58272759f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119224: mmu support for mx51 3stack and mx51 bbg
+dc96d57446bc05fdcf1af2c5a2addad58272759f 27f1aa8a22874e0d5da4e6c35260de818e222811 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00118998: Can not get ip address when kernel boot up
+27f1aa8a22874e0d5da4e6c35260de818e222811 f9560ea02dde6312df24453ffb6c8463fa913c5c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119246 Add CONFIG_MXC_NAND config flag in MX25 platform
+f9560ea02dde6312df24453ffb6c8463fa913c5c fd98f9ab730ce359c44f26da0dff045fe9f507e6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119254: Add mmu header for mx51 build error
+fd98f9ab730ce359c44f26da0dff045fe9f507e6 c19234ad32833e939d7f0c4f3a6513d7069c2fc0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119486 MX25: Improve Lan9217 ethernet transfer speed
+c19234ad32833e939d7f0c4f3a6513d7069c2fc0 9849b7ce97076240994a75b6c79c9557323df21e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119505 MX51 BBG: Change DDR2 settings
+9849b7ce97076240994a75b6c79c9557323df21e e0d14afe50c5d2a26da3809cf3f7b89cddb9f34d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119526 MX25: Fix mmc read/write failure on mmc uboot
+e0d14afe50c5d2a26da3809cf3f7b89cddb9f34d 2e77e11eb598a99dc41c0d210f01ba15a2123c84 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119625 i.MX35: UBoot doesn't accept commands if program uboot to NOR
+2e77e11eb598a99dc41c0d210f01ba15a2123c84 26b3b13903b8b577d72e56552b5bebb611fdd6a0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119660 MX35 UBOOT: Can't boot up on 2k page size nand
+26b3b13903b8b577d72e56552b5bebb611fdd6a0 87ae57433f2b49033006496c20428a266395d579 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119591 Fix SPI-NOR reset issue
+87ae57433f2b49033006496c20428a266395d579 f56aceec7de60a080ca3228ac2895e08fde9a88e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00118739 Correct the board version of MX51 EVK
+f56aceec7de60a080ca3228ac2895e08fde9a88e 7e7add6011ddc85aa8ad3b797ef8a03ae18e9096 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253467 +0800	am: ENGR00119701 MX51: merge some fixes in 200908 version
+7e7add6011ddc85aa8ad3b797ef8a03ae18e9096 0135a1094a591063961e43be73fc676b96012580 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119715: Add multi network support for mx35
+0135a1094a591063961e43be73fc676b96012580 4a579a332925c0ca46eccf109075e925b9891963 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119716: MX28 basic support.
+4a579a332925c0ca46eccf109075e925b9891963 d61920fd868d51dda251b7064e4a23d74a42725c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119738: eMMC card access failed.
+d61920fd868d51dda251b7064e4a23d74a42725c 20b28c5b075f2cd8b9549ea5694710104358e46c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119706: Add esdhcv1 support.
+20b28c5b075f2cd8b9549ea5694710104358e46c bb734b76ffebd85499bda71628929e201622e270 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119834: Change PDR0 clock settings for mx35 TO2
+bb734b76ffebd85499bda71628929e201622e270 8787e494575a914f65ee932461dd545cd3914584 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119890: Set right mac addr to FEC register in init
+8787e494575a914f65ee932461dd545cd3914584 390a7a7d227154bc961819af9d3243fe2c3e3353 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00119894: Read right value in mxc_i2c
+390a7a7d227154bc961819af9d3243fe2c3e3353 3e0ee82f4925fe02113ef77bdb97e10a9cbc8fc1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120191 MX51: Update the M4IF setting
+3e0ee82f4925fe02113ef77bdb97e10a9cbc8fc1 88465c3504e9896d0616a1b37b444277abdd0ca6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120203: Add fec_addr check for mx51
+88465c3504e9896d0616a1b37b444277abdd0ca6 ecc111982392e710fe523d028ea97060b9a8e973 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120207: Change recovery mode combo keys
+ecc111982392e710fe523d028ea97060b9a8e973 5d0ae98ca333f73ed86cce2600d880fcd697ca29 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120208: Change recovery mode boot_cmd strategy
+5d0ae98ca333f73ed86cce2600d880fcd697ca29 0dcccfd538ca157dfced8067646993adb5b92800 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120202 MX51: enable L2 cache
+0dcccfd538ca157dfced8067646993adb5b92800 d150246641af712b03944b3ac18a27a77f2ef015 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120206 iMX28 Enable Ethernet and MMC boot support
+d150246641af712b03944b3ac18a27a77f2ef015 bb197188c6d6aafe71a2d65722d3a2e771b1849c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253468 +0800	am: ENGR00120476: Add fuse support for mx51
+bb197188c6d6aafe71a2d65722d3a2e771b1849c 56fac291d7b1086bfb8312d7b844a34d12786424 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00120830: Add eMMC and eSD fast boot support
+56fac291d7b1086bfb8312d7b844a34d12786424 a29475cad0fec0f6131e102da14089c9e1453ffb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121029 Add MX51-BBG Uboot Firmware support
+a29475cad0fec0f6131e102da14089c9e1453ffb 564b81173eddfbe0a2617b9b49ec246ad408b766 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00120520: Enable MMU for mx51 and mx35
+564b81173eddfbe0a2617b9b49ec246ad408b766 2ac652ee960099524f76362f6c35d4e7583882f4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121079: Unable to get IP address in uboot
+2ac652ee960099524f76362f6c35d4e7583882f4 5367b310872a3a7e38fdc027f89b382cabd6659c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121314: Fix mx23 and mx28 u-boot build error
+5367b310872a3a7e38fdc027f89b382cabd6659c cd2a64a8163e5801399483e0be2ee53fd40335f2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121504 Revert ENGR00120191 to restore M4IF values
+cd2a64a8163e5801399483e0be2ee53fd40335f2 8e0cd76ade098712563f667c1ee3fa9a234289d1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121379: MX28 U-BOOT enhancements
+8e0cd76ade098712563f667c1ee3fa9a234289d1 42ab757eba8ca152c8f3a70ac62d33625da9b078 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR000121601: FEC not work in mx28 u-boot
+42ab757eba8ca152c8f3a70ac62d33625da9b078 d6406ec0b6b0ec1d3a54f4c3cd7c849a7e31102b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121202 Add uboot support for MX53
+d6406ec0b6b0ec1d3a54f4c3cd7c849a7e31102b 05de47cae140dcc4c16f676956500fb03ce63774 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121731: Add mmu, l1cache, l2cache support for mx53
+05de47cae140dcc4c16f676956500fb03ce63774 8b371ccda634f8272b4dbc82e8627a0c956608d6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121774 DDR 300Mhz support for MX53 uboot
+8b371ccda634f8272b4dbc82e8627a0c956608d6 c550d20207ad217ba3f9e57357219ce83dd54ea6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253469 +0800	am: ENGR00121779 Support a single kernel image on MX5x parts
+c550d20207ad217ba3f9e57357219ce83dd54ea6 743286e7c3b36830217013dede9aa949bcf98234 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00121832: Some code reconstructure for u-boot
+743286e7c3b36830217013dede9aa949bcf98234 9a5aa99a682553e601e6cc03731fb46ceed651cc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00121976 UBOOT: some fix for SD/MMC card
+9a5aa99a682553e601e6cc03731fb46ceed651cc 2cdea3c096123050c6b31fa1489ada4f9751f5aa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122046 Update DDR init script for MX53 EVK
+2cdea3c096123050c6b31fa1489ada4f9751f5aa eaafb7c0a1c39dc45bd9cdca32da5ef7d5747ba7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122050: mmc can't read data whose size exceeds 32M
+eaafb7c0a1c39dc45bd9cdca32da5ef7d5747ba7 2eecfb6a21ca865a52716edc82f90f47164365de qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00119033: System can not find MMC/SD card in SD slot 1
+2eecfb6a21ca865a52716edc82f90f47164365de 6c2fb934abe499f38a2d0d8b10d12d0a9de4d39d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122085 MX35 Add Uboot Firmware support
+6c2fb934abe499f38a2d0d8b10d12d0a9de4d39d f3d366aaa5c8542dac34fd391065e3736bd9f31b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122203 UBOOT: Add MX53 ARM2 board support
+f3d366aaa5c8542dac34fd391065e3736bd9f31b c726d99e777f9e3d36737b3ed7dfc08c4bae6829 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122217 Missed iomem_valid_addr in updater configration
+c726d99e777f9e3d36737b3ed7dfc08c4bae6829 4f57a8ec1032cd70752b34e37789fed4f871ce48 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122030 Mfg Firmware support fot imx25
+4f57a8ec1032cd70752b34e37789fed4f871ce48 3303af95ec510685708f6b20a5eb003fd38f0b35 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122395: fix license declaration issue in fsl_esdhc.h
+3303af95ec510685708f6b20a5eb003fd38f0b35 c10049fc2ca291481dbc4bb9b9c1b9af5c5ac96c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122342: missing mx23 evk machine ID setting
+c10049fc2ca291481dbc4bb9b9c1b9af5c5ac96c f2113b5eff626fec351a308203332ebd5f37e262 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122643: Integrate linear PMIC
+f2113b5eff626fec351a308203332ebd5f37e262 89437ea96030e298c6e481f3639e5901c9094e11 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00122980: Change default env dev to mmc for bbg
+89437ea96030e298c6e481f3639e5901c9094e11 979b493cd3c6355a27707ba4334638ad220651cb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253470 +0800	am: ENGR00123265 UBOOT:Preserve NAND bad block indication
+979b493cd3c6355a27707ba4334638ad220651cb 6f5407cb089a90d83a2c73da0883a7f2034c26ad qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123278: Support clock operation functions
+6f5407cb089a90d83a2c73da0883a7f2034c26ad 12429799dde6747603b865a8a1daea98f4395f64 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123418: Add peripheral clock setup support
+12429799dde6747603b865a8a1daea98f4395f64 d0fef6cfb59b86676f7d6955a8b8740c1c0fb28f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123488 MX53 Board Identification
+d0fef6cfb59b86676f7d6955a8b8740c1c0fb28f e1e5c4e6340ec1e339a62e67aa606ba80e96842f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123630 Set ddr clk clock according to the board ID
+e1e5c4e6340ec1e339a62e67aa606ba80e96842f 1cca9d578d3048d653a45d34b7cf6b5f5e50b296 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123641 MX53: Add DDR3 CPU board support
+1cca9d578d3048d653a45d34b7cf6b5f5e50b296 0c79afe051bc9414d8eeb0488571dfb88cf292ac qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123870 MX53: Set AXI_B clock to 200Mhz
+0c79afe051bc9414d8eeb0488571dfb88cf292ac 748ab694213ae2e683de707de072d5532b42d53e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123551: Add mx25 splash screen support
+748ab694213ae2e683de707de072d5532b42d53e ed4638b993cd6d5d14c2eb4eeae7f0e316ec1893 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00124100: Add support for saving env data to active mmc device
+ed4638b993cd6d5d14c2eb4eeae7f0e316ec1893 687ee027cc34a41c4e483339fb997bd6e7d07c66 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00124195 Uboot:Pass EVK RevB board ID to kernel
+687ee027cc34a41c4e483339fb997bd6e7d07c66 8dd1aebdc810eb49cd4f7f621653dac6c1165a83 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00123484 mx28:support saving environment into sd1
+8dd1aebdc810eb49cd4f7f621653dac6c1165a83 eb37845f55ee34cfab5bb5808d3908ada9da60c7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253471 +0800	am: ENGR00124391 mx35: update mfg config file
+eb37845f55ee34cfab5bb5808d3908ada9da60c7 9caa79e8e2f694eb25f9c20cbeda14859b602131 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253472 +0800	am: ENGR00122651: Add dwc_ahsata support
+9caa79e8e2f694eb25f9c20cbeda14859b602131 792a3b5ba0028ee326dbcab247b73d34e0f83b1b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253472 +0800	am: ENGR00123782 Fix boot partition problem for emmc
+792a3b5ba0028ee326dbcab247b73d34e0f83b1b 89790daebf2e2d5cdf97bde0170bbbd301451318 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253472 +0800	am: ENGR00124652 UBOOT: MX53 env fails to load when booting from 2nd slot
+89790daebf2e2d5cdf97bde0170bbbd301451318 ab864e997d34e1058ab7c41734b47cd7f2378a5e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253472 +0800	am: ENGR00124710 MX53 Uboot: Add MFG tool support
+ab864e997d34e1058ab7c41734b47cd7f2378a5e 6cad1523fe39a54d69e6938dae5f684dac0c7a31 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253472 +0800	am: ENGR00124819 Uboot reading/writing sd card fails
+6cad1523fe39a54d69e6938dae5f684dac0c7a31 f7219f7ec2bcf10c12a2bca383167e53b74af050 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124908 CSPI: make spi_get_cfg platform specific
+f7219f7ec2bcf10c12a2bca383167e53b74af050 40f09781e8fd0e4c4cf5300c53ec1ef73683e5a1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124359 Add uboot support for MX50
+40f09781e8fd0e4c4cf5300c53ec1ef73683e5a1 0a438869aca8cd0452c586eb7ae37a6333a1023b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124953 Uboot:Fix the build break for MX51 BBG board
+0a438869aca8cd0452c586eb7ae37a6333a1023b bfc57419ec34137f01727610f85404f39e6b7b96 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124954 MX50: init sys by ROM plug-in feature
+bfc57419ec34137f01727610f85404f39e6b7b96 c2b5c85b693ac0255356e818c5af1932f45963ce qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124951 Uboot cannot initialize MMC cards
+c2b5c85b693ac0255356e818c5af1932f45963ce fba8092f3c19fcddffeb782a8231541dfeab8d5c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124912 MX53: Fix board ID check issue
+fba8092f3c19fcddffeb782a8231541dfeab8d5c e76e03100acc839319f535dbd16302ac78e24dac qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124627: Dynamic SD slot support for env data.
+e76e03100acc839319f535dbd16302ac78e24dac 4e1a1f9074feaeb1e4462b223f133b56caeff153 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00124984 MX53:Add spi_get_cfg function support
+4e1a1f9074feaeb1e4462b223f133b56caeff153 6f427dae3477868d47a593ce68e5c0bb33718d49 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00125042 mx35: Fix error in a comment for header file
+6f427dae3477868d47a593ce68e5c0bb33718d49 6368319169a28f8c988cd384654fc6089008d652 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253473 +0800	am: ENGR00125045 MX53 Uboot: Adjust VDDGP voltage
+6368319169a28f8c988cd384654fc6089008d652 b0ca6c5826295d6d589b416ca815bf321c47df04 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00123924: Reconstructure fuse files and add fuse to mx53.
+b0ca6c5826295d6d589b416ca815bf321c47df04 98c1677a0f25dbdb44eb3e848fcfce22354258f9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125174: MX50: change memory configurations
+98c1677a0f25dbdb44eb3e848fcfce22354258f9 21034f816a70998537ba030d75a3ac80f568fde1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125036 Uboot Add eMMC 4.4 support
+21034f816a70998537ba030d75a3ac80f568fde1 4507dc92e256c517b41d6a053e01cecb1aef17d3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125220 MX28: SD(slot0)boot dhcp failed
+4507dc92e256c517b41d6a053e01cecb1aef17d3 ad1eea150c9be886783a935b4c1402dc7bbf82a3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125613 mfg-tool: Add mx50 mfg firmware support
+ad1eea150c9be886783a935b4c1402dc7bbf82a3 d475fdcd2dbaac73e64079164a0b6f4282885f20 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125735 iMX28 read mac address from fuse
+d475fdcd2dbaac73e64079164a0b6f4282885f20 433b7264b5381e6ce8869f0eaef4a4a1b13a81d2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125757 mx28: change the boot mode offset to TO1.2 version
+433b7264b5381e6ce8869f0eaef4a4a1b13a81d2 8867847707ffc44990a3acd3da62149a87ec5f28 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125324: Add splash screen code and support for epdc
+8867847707ffc44990a3acd3da62149a87ec5f28 8788b753cc9d2eaa61fb8812bdfb45f5ad0e98f2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00125237: Fix incorrect copyright info.
+8788b753cc9d2eaa61fb8812bdfb45f5ad0e98f2 bed2cc4edfb89bc6236128058d862ccdbf2e2471 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00126079: Add clk command support for mx51
+bed2cc4edfb89bc6236128058d862ccdbf2e2471 a6993866f8cb2863fcb1c878522d12c43eda5ef4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253474 +0800	am: ENGR00126474 UBOOT: update DDR script on MX50 ARM2
+a6993866f8cb2863fcb1c878522d12c43eda5ef4 498e6f86fd8474f7156a7c26653bbc5a2855ae34 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00126566 MX50:Aligned LPDDR2 initialization to the latest script
+498e6f86fd8474f7156a7c26653bbc5a2855ae34 5fa7646cff081accd54726c82725881917307653 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00126764 MX50: Set the memroy size to 512M on LPDDR2 board
+5fa7646cff081accd54726c82725881917307653 8f03471bf75fabbc0b487a5caac52ccd2a1592b7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00127368 UBOOT: Make the android recovery code common for platforms
+8f03471bf75fabbc0b487a5caac52ccd2a1592b7 8d37ad5ef874a261dab3ddb5d58563dec3eb56c5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131619 UBOOT: Gcc 4.4.x complains weak inline
+8d37ad5ef874a261dab3ddb5d58563dec3eb56c5 c03623f8b5fbc1f33d04eec1a0024f6a519302cf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131712 UBOOT:add DDR2 support for IMX50
+c03623f8b5fbc1f33d04eec1a0024f6a519302cf 2ac456a9ef19d6830b198bdfe4b4384d8892fea1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00127167: Add gpmi nfc and apbh dma support for mx50.
+2ac456a9ef19d6830b198bdfe4b4384d8892fea1 53b6fc3a72581b795527c76a95194e38fb025dfc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131578: Add android recovery mode support for mx53
+53b6fc3a72581b795527c76a95194e38fb025dfc df3ce91134d8e9b96714cd15e2a379e16efc3534 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131662: Fix that iram boot don't work
+df3ce91134d8e9b96714cd15e2a379e16efc3534 2c3d0a012b18399b3e760c29e450f50603bf267c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131705-1 rename mx53_evk folder as mx53_rd
+2c3d0a012b18399b3e760c29e450f50603bf267c 4f7f73a20c1514938c1a981ba88a3929c75934a1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131705-2 Add MX53 ARD support
+4f7f73a20c1514938c1a981ba88a3929c75934a1 0db9dc4de308df972c0a372e086d2664cc1abb92 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131705-3 Import new mach-type header file
+0db9dc4de308df972c0a372e086d2664cc1abb92 9cbab5f07768cd820935494beb1ea472ed5f7fbe qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253475 +0800	am: ENGR00131705-4 MX53: fix typo error for recovery
+9cbab5f07768cd820935494beb1ea472ed5f7fbe 9f2931ab8f97121467992b735153fb5a484ff114 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00131792: Fix mx50 lpddr2 build errors
+9f2931ab8f97121467992b735153fb5a484ff114 d863ec84249a388bd8a6fd5b1776f54edcb2d68e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00131779: Use serial_mxc as uart driver for all platforms
+d863ec84249a388bd8a6fd5b1776f54edcb2d68e ecfe1429f0069868db5ca285e469c132deb4ff68 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00131691 MX50 RDP Uboot
+ecfe1429f0069868db5ca285e469c132deb4ff68 db1edf8418ceef4661c1800afc2edbe8d7e696fb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00131840 MX53 ARD:use serial_mxc as uart driver
+db1edf8418ceef4661c1800afc2edbe8d7e696fb 8febd27c5ded51c942ca4e98b4654c9ebddf3921 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00131924: using ext4 as default recovery filesystem
+8febd27c5ded51c942ca4e98b4654c9ebddf3921 23c89829207eda4876c20fe62eb76d8566e9a55a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00131936 MX5X corrent mx53_evk mx51_BBG android default env setting
+23c89829207eda4876c20fe62eb76d8566e9a55a 52ab77859efa723728d530f9a90138199655bd97 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00132014: nand read and write page may fail in some pages
+52ab77859efa723728d530f9a90138199655bd97 1b31aa05e6738342c860c0cd0ad7d7e54c247abc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00132526 MX50 RDP Update to latest LPDDR2 script
+1b31aa05e6738342c860c0cd0ad7d7e54c247abc 96ecc7a47993e9a6a714dfadd14eeb6b2e41d281 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00132618 MX53 MFG:use serial_mxc as uart driver
+96ecc7a47993e9a6a714dfadd14eeb6b2e41d281 ccd2c512b02efae10161ff8c15cb48c07fa8d242 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00132656 MX53 ARD: Add MFG tool support
+ccd2c512b02efae10161ff8c15cb48c07fa8d242 8f7d14beab096969fa59ead13cd3f9773da6d23c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00132617 MX53: add NAND support
+8f7d14beab096969fa59ead13cd3f9773da6d23c 16fe23b725f988f64e768ea0e0a63ccc5b537073 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253476 +0800	am: ENGR00132709 MX53: add "clk nfc" command support
+16fe23b725f988f64e768ea0e0a63ccc5b537073 2671cfbd404eabeb7054a5db0f929c93dc4edfb0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00132727 NAND: remove REG_NFC_ONE_CYCLE calling
+2671cfbd404eabeb7054a5db0f929c93dc4edfb0 3d63789fc1c70b52a13845d9c14fc77731cbc3ac qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00132758 correct NFC_CLK definition
+3d63789fc1c70b52a13845d9c14fc77731cbc3ac f7908e7c34ddb62163b47ec9c2dacbd70b14a9a5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00132759 MX53: use 32K CLK as GPT source
+f7908e7c34ddb62163b47ec9c2dacbd70b14a9a5 fef79f07cf296d92ffb7468be4b2282896feaad7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00132886 mx50-rdp: add mx50 rdp board mfg-tool firmware defconfig
+fef79f07cf296d92ffb7468be4b2282896feaad7 971a87cbfd46edb271556f880975b6baa59faa71 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00132957 mfg-tool: should add stop usb operation for mx50 rdp
+971a87cbfd46edb271556f880975b6baa59faa71 4962c81b0b33b75b2cc7c0b8f4a52640cdb22488 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00132965 add MT29F16G08ABACA NAND description
+4962c81b0b33b75b2cc7c0b8f4a52640cdb22488 f1b296c49b097526d550205baf9fc86ad3183c49 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00133049 Support nand flash for MX28
+f1b296c49b097526d550205baf9fc86ad3183c49 3b5f1d07ad1ea7ebf84557d1f63430489624aa0b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253477 +0800	am: ENGR00133530 plug-in support mfgtools and sb_loader
+3b5f1d07ad1ea7ebf84557d1f63430489624aa0b 73480ae7f6ebac7d658341ce80bc6f559217f9d1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00132909 MX53 Uboot: Support for TO2
+73480ae7f6ebac7d658341ce80bc6f559217f9d1 ab82e17b8705a3244fe0cef2a1779e9490a21693 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: Get common/cmd_fastboot.c and include/fastboot.h from omap uboot git. The code realized common Android USB fastboot protocol.
+ab82e17b8705a3244fe0cef2a1779e9490a21693 893af01dea18821c08740a43daaf718e00b80e9b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133743 Change code style of fastboot code to pass review-commits.
+893af01dea18821c08740a43daaf718e00b80e9b 0a93d0f61776ad265cc70c3d448903f920d418a0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133756:UBOOT:NAND:Remove the 2G limitation from NAND driver
+0a93d0f61776ad265cc70c3d448903f920d418a0 06dc45bcb45011ce4fd88ceb4f68eca52a9eae96 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133689 MX51: set MC13892 charge output voltage as 4.2V
+06dc45bcb45011ce4fd88ceb4f68eca52a9eae96 3d643f1e40ba1b4961666c5b274a8ea695873e71 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133551-1 Add freescale usb udc support for i.mx51 platform.
+3d643f1e40ba1b4961666c5b274a8ea695873e71 74c994b4ed3f17d200f10a225d9234c21fa5fb3c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133551-2 Add fastboot driver support for android.
+74c994b4ed3f17d200f10a225d9234c21fa5fb3c 598aef39fe4a8e449ab537442d23573f1fd879e3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133124: Add nand support for mx50 rdp
+598aef39fe4a8e449ab537442d23573f1fd879e3 8feb5655a55042cf46ea7fa5b18aff624b97d156 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00134098-1 MX51: Update fastboot usb init seq
+8feb5655a55042cf46ea7fa5b18aff624b97d156 de9e7503ec79bef01ffa21f0174ab1b5b05539b9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00134098-2 MX53: Add fastboot support for android.
+de9e7503ec79bef01ffa21f0174ab1b5b05539b9 b5592c259c86309739a96be455b76eeb6adb340f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133579 Uboot ESDHCv3 Remove workaround for DLL
+b5592c259c86309739a96be455b76eeb6adb340f db958f0aa28ab5f10ac85e6cd9f0b8c71c127f61 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR00133437 MX50 Uboot support for TO 1.1.1 precode
+db958f0aa28ab5f10ac85e6cd9f0b8c71c127f61 c3e32d2904a22be79c8a9947ef2ddce8a445c475 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253478 +0800	am: ENGR12345678 Change ddr write delay in the PHY
+c3e32d2904a22be79c8a9947ef2ddce8a445c475 ff36c878277c6ca407eae7d5f0cc7d99ed8163df qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00025557: MX50 Add ZQ calibration support for TO1.1.1.
+ff36c878277c6ca407eae7d5f0cc7d99ed8163df b1d1c574c0e62e8a92c0f4587a2b67d130d8ab4b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00133744: Merge mx50_arm2 to mx50_rdp
+b1d1c574c0e62e8a92c0f4587a2b67d130d8ab4b 2b1721d522e30969f010337f77f239af569301b8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: NAND: Update to support 64 bit device size
+2b1721d522e30969f010337f77f239af569301b8 79b36140e5e38949d5ce5ec9a0bbbef98267238d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00134220-1 NAND: fix up the chip select handling
+79b36140e5e38949d5ce5ec9a0bbbef98267238d 53cd5a281a775f44ec9c02bd33a5d29e874353e9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00134220-2 Need use CONFIG_SYS_NAND_MAX_CHIPS
+53cd5a281a775f44ec9c02bd33a5d29e874353e9 7513761b30761e653c41ba73b45e078c5f9e7cbe qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00134220-3 Fix the nand bad command issue
+7513761b30761e653c41ba73b45e078c5f9e7cbe 904714cea6b70c7e3e954d59f4a1d99e5a1c7e07 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00136031 mfgtool: sync config file for mx50 rdp
+904714cea6b70c7e3e954d59f4a1d99e5a1c7e07 0b81b19ff79fd862be5cae69329a50114d7946c5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00136042 Add ZQ calib config and update script for DDR2
+0b81b19ff79fd862be5cae69329a50114d7946c5 08900e466bb79db51b453c00568e714c213a38b3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00136081 DDR script update for MX53 TO2 ARD
+08900e466bb79db51b453c00568e714c213a38b3 ccedbbc59367a1a347af1921458be3a7f7be19ad qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00136170 MX50 Add ZQ calibration revision for TO1.1
+ccedbbc59367a1a347af1921458be3a7f7be19ad a638eb66e88abed3298909796705033ea5099c73 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: Add linux framebuffer header include/linux/fb.h
+a638eb66e88abed3298909796705033ea5099c73 5cc27d47ae986b04aab08a3d560f4311ed77b636 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: MX51: Add IPU driver for video support
+5cc27d47ae986b04aab08a3d560f4311ed77b636 87289ad010bc51b7d09269d995965692044065de qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: MX51: Add video support
+87289ad010bc51b7d09269d995965692044065de 59270b81c301cb1a102658a60382698d0f3ceae5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00136038: Remove config CONFIG_EMMC_DDR_MODE
+59270b81c301cb1a102658a60382698d0f3ceae5 72f4160ebf4e16f7b99686b6e2e6245061536bed qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253479 +0800	am: ENGR00133727: uart outputs messy code when kernel starts on mx51
+72f4160ebf4e16f7b99686b6e2e6245061536bed 18b5e7fa8378c47d812e468f8f44770ee63a0cfc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00134068 MX51 BBG:Support CLAA WVGA splashimage
+18b5e7fa8378c47d812e468f8f44770ee63a0cfc 0fb519ab84adf36a6d59da3bb2d6e6b04b90c6d1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00137214 MX50: Turn on ZQ calib config by default and fix hang problem
+0fb519ab84adf36a6d59da3bb2d6e6b04b90c6d1 18d4d4230613c514b36a1d75e38eb8a4ffb345c8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00137273 uboot: update the android default env for 2.6.35 kernel
+18d4d4230613c514b36a1d75e38eb8a4ffb345c8 66d5bf61f34b12732770f5a946e0ffd28a835eac qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00137211 U-Boot MX5x: Incorrect GPL license header on files
+66d5bf61f34b12732770f5a946e0ffd28a835eac 4ca137c6f0c93402fb9d9394bdbe68d8cbfbd2c0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00137390 UBOOT:NAND: BBT not found on MX53 board
+4ca137c6f0c93402fb9d9394bdbe68d8cbfbd2c0 ab527491eae3bce1e48d2c4fee84e26c2fa0aae6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00137372 MX53: Switch back to use DCD and update DDR scripts
+ab527491eae3bce1e48d2c4fee84e26c2fa0aae6 738f1cb2e4f075abb53160f3d5d6c87a70c803fb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00137408: Add FAT32 support
+738f1cb2e4f075abb53160f3d5d6c87a70c803fb 90155f36d720c93a2759f7b6057a35be9995b153 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00136863-1: Change mmc framework architecture.
+90155f36d720c93a2759f7b6057a35be9995b153 9619abcae17a0587665e9301531b36fc617d4022 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253480 +0800	am: ENGR00136863-2: Fix mx53 CMD12 issue.
+9619abcae17a0587665e9301531b36fc617d4022 e3d6e0ba9c864bbba27fac8562463c4ae0be3206 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137410 MX53 split board files into different folders
+e3d6e0ba9c864bbba27fac8562463c4ae0be3206 649500c0e6c5d28b7396ee373d9f31d1a9629054 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00136075 MX53: Add SMD board support
+649500c0e6c5d28b7396ee373d9f31d1a9629054 dde47155da00f6eefd9607bd27bf64729d2e2132 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137497-1 Import new mach-type header file
+dde47155da00f6eefd9607bd27bf64729d2e2132 4c215dc33e46edc40ed8ebe90689f85d2ce081a9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137497-2 MX53: Add LOCO board support
+4c215dc33e46edc40ed8ebe90689f85d2ce081a9 2e6d704156e0f12321c6f85700e6a2b3113ccf35 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137596 MX53 Uboot SMC911X driver needs to get mac addr from IIM
+2e6d704156e0f12321c6f85700e6a2b3113ccf35 5b7ec8b594c6ea2577078127cc4e812f809ab9d5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137642 MX53 Uboot Align DDR3 script for Loco and SMD boards
+5b7ec8b594c6ea2577078127cc4e812f809ab9d5 e362155cca7f2dd0095b4d2c225e5e6785302ce9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137604: Change PLL4 to 455MHz for mx53
+e362155cca7f2dd0095b4d2c225e5e6785302ce9 f80a3fbe651729531a6e47bd3348ad5d5826f6fa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137603 Add mx53_smd_android config for android
+f80a3fbe651729531a6e47bd3348ad5d5826f6fa 27daf206ad21a3330c7354d8ab624f6244305fa4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137713 MX53 Uboot SMSC Fix order in which mac addr bytes are read from IIM
+27daf206ad21a3330c7354d8ab624f6244305fa4 9dab11c10435b2d259348296891cdbbf40b58cf8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137766 BBG splashimage:Allocate cmap for panel_info
+9dab11c10435b2d259348296891cdbbf40b58cf8 233881b8b09da74910016968882039efbe8aac65 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253481 +0800	am: ENGR00137767 IPUv3 video:Support splashimage with MMU disabled
+233881b8b09da74910016968882039efbe8aac65 f2a27514e89c414f8f80c54b480cff1a37a54391 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137841 splashimage:Correct horizontal display position
+f2a27514e89c414f8f80c54b480cff1a37a54391 a1f3259bfd90cda1ea6b506fa3843ebeb979d5bd qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00136869: SATA device can't init and a typo in sata help
+a1f3259bfd90cda1ea6b506fa3843ebeb979d5bd 11ffa59d2b9b314b507e41e597b75ac8e6d414d2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137358: Add saving environment to sata device support
+11ffa59d2b9b314b507e41e597b75ac8e6d414d2 450026d95f43a12d998181dc44f200516aa4d022 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137791 MX53: Update for MFG tool
+450026d95f43a12d998181dc44f200516aa4d022 ffed0ec4fe274f385565f0e24d6e623e2c24fb66 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137894-1 Add imx pwm driver support
+ffed0ec4fe274f385565f0e24d6e623e2c24fb66 5342e34fcdef062b99ce7f766e2fa2c80834a2d9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137894-2 MX53: Add ipu base addr and ipu clock
+5342e34fcdef062b99ce7f766e2fa2c80834a2d9 22cdbd3331e98bf3f98e5278ddb7209c5d586b67 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137894-3 IPU driver enhancement
+22cdbd3331e98bf3f98e5278ddb7209c5d586b67 f3e903fb8c74a08b62817275890cee6e4dbd7ef3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137894-4 IPUv3 FB: IPUv3 FB driver enhancement
+f3e903fb8c74a08b62817275890cee6e4dbd7ef3 a17afd42785c076ce6d55704236f392952187e99 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137894-5 MX53 ARD:Support splashimage
+a17afd42785c076ce6d55704236f392952187e99 89cb08b6340257a8d46bf1a0e395347f91d05dc2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137894-6 MX53 SMD:Support splashimage
+89cb08b6340257a8d46bf1a0e395347f91d05dc2 84221ab213553a918a2ee57f0adeed93e230e48d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00137552 MX53: increase VDDGP as 1.2V for 1GHZ
+84221ab213553a918a2ee57f0adeed93e230e48d 73dcddb053af67e294428c8d0573526226c29a1f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00138040-1 MX53 SMD Android:Support splashimage
+73dcddb053af67e294428c8d0573526226c29a1f c1baa9bde973541a6b5454fc4b2b5cd4e4af216d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00138040-2 MX51 BBG Android:Support splashimage
+c1baa9bde973541a6b5454fc4b2b5cd4e4af216d 31d99c9c578938f5fdea3dd69ed5fb725ee72fba qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253482 +0800	am: ENGR00138040-3 Protect splashimage related stuffs by config
+31d99c9c578938f5fdea3dd69ed5fb725ee72fba f9a466b01eae4d19dcb4b3f791e47a711d10dc6d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138148 MX53 TO2.0 EVK: change the default core as 1GHZ
+f9a466b01eae4d19dcb4b3f791e47a711d10dc6d fd56efbe73a31ea98eccd575d67a687ad0730f47 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138191 disable the SPLASH SCREEN for android
+fd56efbe73a31ea98eccd575d67a687ad0730f47 fcbf0767daa6bc92fc071a419ddd40d2fa4ac0c7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138240 Disable splashimage support for PDK
+fcbf0767daa6bc92fc071a419ddd40d2fa4ac0c7 21d1c8f01bb876e45d1c7b625248b61c6e712e1a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138359 Change uramdisk from 6M byte offset of android fastboot
+21d1c8f01bb876e45d1c7b625248b61c6e712e1a 00938cbf77f003d9fd8d16eda4960914f388b9d7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138390 android recovery, enlarge uImage size
+00938cbf77f003d9fd8d16eda4960914f388b9d7 0ffbf3f44ae91891a47f2944e26044b48b29f829 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138468-1 MX5 video:Disable DP/DC/DI/IDMAC before go to kernel
+0ffbf3f44ae91891a47f2944e26044b48b29f829 b61c974203d07b63f24bf41470256e56db8398e2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138468-2 Enable splashimage support for several platforms
+b61c974203d07b63f24bf41470256e56db8398e2 e1bbf137476bd8f5f6e49695528f8059ef3a000d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138422-1 Fix usb connection failure if do sata init
+e1bbf137476bd8f5f6e49695528f8059ef3a000d 0df238227b29818260b83e29b27690a7e924d0d2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138422-2 Add SATA storage support for android fastboot
+0df238227b29818260b83e29b27690a7e924d0d2 b70eeb107beb7a4104c6d1a22c9210ea23c54417 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253483 +0800	am: ENGR00138422-3 Android fastboot: Pass block offset to cmd_fastboot
+b70eeb107beb7a4104c6d1a22c9210ea23c54417 5462bc381ace088f69b9723d33e44c109d1a07fc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00138534 Disable splashimage support defaultly for PDK
+5462bc381ace088f69b9723d33e44c109d1a07fc c88b23edb9e8b2eeb908379989578bd004333d22 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00118558 MX51/MX53: change the boot command of android boards.
+c88b23edb9e8b2eeb908379989578bd004333d22 956565799b0bdfc7690617b8145d4eb4cb34e20b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00138549 Android fastboot: Support eMMC4.4 on imx53_smd
+956565799b0bdfc7690617b8145d4eb4cb34e20b 3b5032e46706d0830f027b8f6dfa1a8981d016b0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00138635 MX50 Update mDDR script to use more optimized settings
+3b5032e46706d0830f027b8f6dfa1a8981d016b0 a10322ab89b0c15e391edd6ffc9ebe43dfbf2fef qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00138689 MX50 Update LPDDR2 script to use more optimized settings
+a10322ab89b0c15e391edd6ffc9ebe43dfbf2fef ed59703b252f30dd9ba70173dd9a376785ec390d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00139120: Correct CONFIG_CMD_MMC to CONFIG_CMD_IIM for iim
+ed59703b252f30dd9ba70173dd9a376785ec390d a2d47ad852cc4d1f7f55faaea5d1bc2469ede606 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00139924 mx53 smd &loco: set bootup vdd GP to 1.2v
+a2d47ad852cc4d1f7f55faaea5d1bc2469ede606 99cad408309cf6627f5e9057d6445f4e828190ae qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00139747: Read fuse to distinguish between mx53 revA and revB
+99cad408309cf6627f5e9057d6445f4e828190ae 2812ca4305f5f993babe597ebba2d712abc5d6e8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00138533: Fix sata write operation random failure issue
+2812ca4305f5f993babe597ebba2d712abc5d6e8 1e623b38887910edecaf6d06ca9d43cb220a878a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00140089 MX53_SMD: update command line.
+1e623b38887910edecaf6d06ca9d43cb220a878a 1cf69f8739f54919e839c273557c8945e3af5249 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00140692 Update for DDR3-based MX53 SABRE Auto boards
+1cf69f8739f54919e839c273557c8945e3af5249 7c1ae5288d434c3cdb15f7e14c05bde9425754ca qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00140750 mx53smd: set the default DDR size to 512MB for android configure
+7c1ae5288d434c3cdb15f7e14c05bde9425754ca eaac5869dc9398e45b1d32a6a4c7f92bd1ea5db4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00140767: Improve mx5x DDR clock function
+eaac5869dc9398e45b1d32a6a4c7f92bd1ea5db4 f8dfc7a7e5a20f4efbb9233aac4b5005212f1f37 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00140486 Add SPI NOR Flash M25P32 driver
+f8dfc7a7e5a20f4efbb9233aac4b5005212f1f37 1dea72a57a52b8a29a5ee2ab9d2f338e4ab327f3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253484 +0800	am: ENGR00140825: Add mx53 to2.1 chip id recognition
+1dea72a57a52b8a29a5ee2ab9d2f338e4ab327f3 86dc7e9c3deecd99586c55f79ac1406d3b46ba83 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00140824 Android: Enable fastboot support for mx50 rdp
+86dc7e9c3deecd99586c55f79ac1406d3b46ba83 77f784596317c9c93d0e0cdb838a954e00420b0e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00140873: MMC may wrongly regconize 2GB eMMC as high capacity
+77f784596317c9c93d0e0cdb838a954e00420b0e 082070cdea1ca1c6a454b91dbcff4687c41358b3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00140872 Add MX50 RD3 Support
+082070cdea1ca1c6a454b91dbcff4687c41358b3 8201ac29ba6ba1145cd3e9cbcd6c37bc4da49391 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00140982 MX53 Increase VDDGP to 1.25V for 1 GHz
+8201ac29ba6ba1145cd3e9cbcd6c37bc4da49391 67089e24f48f9412c83b5a13d51b92f26f392cd9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00140537 mx53: update vddgp according to new data sheet
+67089e24f48f9412c83b5a13d51b92f26f392cd9 9b4c16592eb67348a19ea1f6ca24302050354165 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141000 MX50_RDP: add android recovery support.
+9b4c16592eb67348a19ea1f6ca24302050354165 57a63df7e581de67ef8f70c77721dd411cfaf90e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141058 MX50_RDP: Android Fix typo in recoevry command line
+57a63df7e581de67ef8f70c77721dd411cfaf90e c3a5145d24847af7fda41ad87efcbe546f8ffa5a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141129: Add m25p32 spi_nor support for mx53_smd
+c3a5145d24847af7fda41ad87efcbe546f8ffa5a b3229a6dddd3bff29e16bc0253e729704aa121ea qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141157: Add m25p32 spi nor config to mx53_smd_android
+b3229a6dddd3bff29e16bc0253e729704aa121ea beef7334a3479a6f40d795e0c00d10047b8e00ec qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141363: change mx53 uart clk parent to pll2
+beef7334a3479a6f40d795e0c00d10047b8e00ec 9593df82fbed2081ed729145bf7033eb93ac7e9e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141410 MX50 RD3: Set GPIO4_16 to Enable DCDC_3V15
+9593df82fbed2081ed729145bf7033eb93ac7e9e 566cadbb369098361eb6473a0e8bb2a8cad91313 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141556: Fix copyright issue
+566cadbb369098361eb6473a0e8bb2a8cad91313 037a171381a115523409581a67d94135cd6e865d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253485 +0800	am: ENGR00141335-1: Use bypass way to set ddr dll in mx53
+037a171381a115523409581a67d94135cd6e865d 28b64e64efa54b2b701d2e325b7c0dc9e7e634ab qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00141335-2: get more accurate ipg_per clock frequency
+28b64e64efa54b2b701d2e325b7c0dc9e7e634ab b8984ba8a3decff5d07e12503f9bccede358c593 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00141335-3: Add CONFIG_EMMC_DDR_PORT_DETECT to mx53 and mx50config files
+b8984ba8a3decff5d07e12503f9bccede358c593 29258b82b4244a544fdd9f3e5a1e393e2d4d3ba8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142246 MX50 Update DDR2 script to use more optimized settings
+29258b82b4244a544fdd9f3e5a1e393e2d4d3ba8 ac594e719600b5434a269845e5ce6fb3b49c210d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142247 MX50: Add PD+3 routine for all DDR types
+ac594e719600b5434a269845e5ce6fb3b49c210d 40d5e1fddc8ce2d687292fd4afb4f0904420bc4d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142259 set UART2_RXD (GP6_11) to high
+40d5e1fddc8ce2d687292fd4afb4f0904420bc4d b29315f705c011e47ea79f0be045cd75330838ef qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00141885: mx50 and mx53 reboot fail when booting from spi nor
+b29315f705c011e47ea79f0be045cd75330838ef 17869f6f407309c9aa1079dd40283482a5c073a5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142322: mx53-smd: spi nor: can't erase 0x200000 size
+17869f6f407309c9aa1079dd40283482a5c073a5 4785e9535afa67a6fa1fa79ba303c1d8c4042818 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142497 Android: MX53_SMD: check eMMC and SD recovery file.
+4785e9535afa67a6fa1fa79ba303c1d8c4042818 22cd6a34a7a3ae1fe07f96da68e9cb48f8872225 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142740 mx50 rdp: mfg support GPMI nand by command line
+22cd6a34a7a3ae1fe07f96da68e9cb48f8872225 c4b26dc2b3dbc4c143fad0de89c553cea3c70b48 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00143178 mx53 ARD DDR3 board: add MFG tool support
+c4b26dc2b3dbc4c143fad0de89c553cea3c70b48 b4e79372c175be2b1ee283e9c2b67fb5091325bc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00142995 MX50: Enable uSDHC instead of eSDHC for SDR mode
+b4e79372c175be2b1ee283e9c2b67fb5091325bc a81a78148f9945ec217573a2315c1cf6fb8ac69f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00143428 mx53 ard RevB: use internal clock for sata
+a81a78148f9945ec217573a2315c1cf6fb8ac69f 8ef1bfb7064af9ff43b3b8c17f4e7f1bc79bfbe8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00143442 uboot: support android spi boot and mfg on mx50 rd3 board
+8ef1bfb7064af9ff43b3b8c17f4e7f1bc79bfbe8 e8ef718f75134143b0ab3f419ef6249ea06ab9de qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253486 +0800	am: ENGR00143457: Don't let ROM copy .bss section
+e8ef718f75134143b0ab3f419ef6249ea06ab9de 0235ddbb3364a05659d06df47c4f72e7f1bdc4c1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143461 mx51 evk: increase VDDGP as 1.1v for 800MHZ
+0235ddbb3364a05659d06df47c4f72e7f1bdc4c1 e9e8208441b1d882769bed0d1ae7b4ac9fafe0af qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143469 mx53 smd: pull down GPIO_9 to reset the board
+e9e8208441b1d882769bed0d1ae7b4ac9fafe0af 8c99fb91aff8a745a9340b461312ed1f8221e865 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143613 uboot: update the android ramdisk load address
+8c99fb91aff8a745a9340b461312ed1f8221e865 a1e15cfda8c25bcd32a74fa3de2d48107f27e62c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143570 mx53: change the default environment setting
+a1e15cfda8c25bcd32a74fa3de2d48107f27e62c 39a18d166e9911a9294ea4128dd80ec4b27edb5a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143302 Add mc34708 pmic support on loco/Ripley board
+39a18d166e9911a9294ea4128dd80ec4b27edb5a d458540c5f1898d5e74a1f47b7884f3ba1d52fca qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143298: Reinit uart after using clk command
+d458540c5f1898d5e74a1f47b7884f3ba1d52fca b34fd18fd0daf36a12549fd0b30c862f64261b76 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143704: U_BOOT: Nand oobsize is wrong in some nand chips
+b34fd18fd0daf36a12549fd0b30c862f64261b76 99b734cc90ae24966a47900d1808c8ff32cb0cdd qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00143837 mx50 rd3: support android boot from RD3 NAND device
+99b734cc90ae24966a47900d1808c8ff32cb0cdd 0378b305f306cfd09840bdf96b71a7a8a9a85437 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00144060 MX53_SMD: recovery android, update recovery command for emmc.
+0378b305f306cfd09840bdf96b71a7a8a9a85437 d95367a780477c3b361819f66183ebb9ad2707af qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00144389 mx53 QS Ripley: change VCC from 1.35V to 1.3V QS Ripley board
+d95367a780477c3b361819f66183ebb9ad2707af ca3c319f0303521bf7ba5754469bfba52844f273 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00144224: MX53: Add MMU mapping for all peripherals
+ca3c319f0303521bf7ba5754469bfba52844f273 0dca813f79c483dcce439653f224d82e89cac236 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00151187 MX53 SMD: Kernal stopped Usb driver after reseting in stop mode
+0dca813f79c483dcce439653f224d82e89cac236 77c4be75cb92d142351cb5841c5afea389ee6a05 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00151892 MX50: Workaround to prevent PLL1 from losing lock
+77c4be75cb92d142351cb5841c5afea389ee6a05 20f2b9dacc467276aaa9991efbc5f1e25209e680 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253487 +0800	am: ENGR00151966: MX51 - Apply SW workaround for the PLL1 unlock HW issue.
+20f2b9dacc467276aaa9991efbc5f1e25209e680 7dda2f8db8d701e34206d6657d1832a24d315621 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00144424 MX6: enable uboot for ARM2(SABREAUTO) CPU board
+7dda2f8db8d701e34206d6657d1832a24d315621 8ae889e17037e456e95926379429d41806dad152 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00139198: iMX61 uBoot add ENET support
+8ae889e17037e456e95926379429d41806dad152 9c87ee37c14873735ed2ac2b037b107a88420cc2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00152241 MX6: enable 1G speed mode for PHY and ENET
+9c87ee37c14873735ed2ac2b037b107a88420cc2 b10219eeb73e07c285417d84ff5cfdc9a486a113 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00152439: MX51: PLL workaround should be implemented only for PLL1
+b10219eeb73e07c285417d84ff5cfdc9a486a113 4c18e98be3197c21c2d42725f7abed4bc8a71a20 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00139206 MX6 USDHC eMMC 4.4 support
+4c18e98be3197c21c2d42725f7abed4bc8a71a20 088b1edeabe8beb2e04f11efb6213038c114673b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00152755 MX6 Switch DRAM init script from plugin to DCD for emmc fastboot
+088b1edeabe8beb2e04f11efb6213038c114673b 5729dfedcbc936f765cc18e89bf3da3913f9a690 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00152907 MX5X: update GPU default cmdline.
+5729dfedcbc936f765cc18e89bf3da3913f9a690 c59b252cee3fe9c7aae94b4f4685b433efed807b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253488 +0800	am: ENGR00153394 mx50 rd3: make SDHC1 as default boot device for android
+c59b252cee3fe9c7aae94b4f4685b433efed807b 554e7c74af54d8322711a94ce72eec95e710edca qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00152843 mx51/3: align the android default env with document
+554e7c74af54d8322711a94ce72eec95e710edca 0ea2e3e76a074762a9180e661174ed8528dde7bc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00151695 mx53 ddr3: update ESDREF and MR0
+0ea2e3e76a074762a9180e661174ed8528dde7bc 06623f1a1e2fae4b85bb2a7302bb0d16106e4357 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00151310 mx53 smd: force warm reset as cold reset
+06623f1a1e2fae4b85bb2a7302bb0d16106e4357 d50e5de235c454b04c061abb200f52cfc48b9564 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00143438 [MX50 RD3]DCDC_3V15 GPIO change
+d50e5de235c454b04c061abb200f52cfc48b9564 5965d7c0772385f89d506abe54cbac206dd85510 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00153597 [MX6]Enbale MMDC low power
+5965d7c0772385f89d506abe54cbac206dd85510 011f4e4e63f32497bf198fa3ff4f0a5efe13fb89 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00153605 fastboot: uboot cannot be burned to boot partition
+011f4e4e63f32497bf198fa3ff4f0a5efe13fb89 714254c706d541f99a09ffa003872251d90fe732 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00153526 mx53 pcba: add pcba board revB support in uboot
+714254c706d541f99a09ffa003872251d90fe732 ea806ba93c4644ed53a741ab8a38552b8df87c53 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00153759 mx51: fix fastboot build failed without boot partition macro
+ea806ba93c4644ed53a741ab8a38552b8df87c53 81eab2173e77e767bdfee99572854ae379a8b0ed qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00153761 imx6q ipuv3: improve display quality
+81eab2173e77e767bdfee99572854ae379a8b0ed 064e8b5d88180b963842374dd2e44727bd06e86f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00154400 mx53 pcba: bringup update for RevB board
+064e8b5d88180b963842374dd2e44727bd06e86f b048cb07c47278ba64e93b142991c9fa5b18fdb4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00154468 mx53 pcba: Add DC-IN power supply support for revB board
+b048cb07c47278ba64e93b142991c9fa5b18fdb4 35d7301b694be6db8632472c4f5e758ffa66a85b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00154762 mx53_pcba: update Ripley/mc34708 USB/AUX charger settings
+35d7301b694be6db8632472c4f5e758ffa66a85b 646f90a2c4b59e46734c65bb5673ecd475d657f6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253489 +0800	am: ENGR00154396: U_BOOT: Env config adjustment.
+646f90a2c4b59e46734c65bb5673ecd475d657f6 6738d087ed30270affe7e60e34048a11d9a59a94 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154924 [MX6]Disable some clocks in uboot
+6738d087ed30270affe7e60e34048a11d9a59a94 e6d36ba5e80c5362ac18debdf862e471aa34208a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154998 mx53 pcba: correct the default bootargs
+e6d36ba5e80c5362ac18debdf862e471aa34208a a97867b7e308026eaa4e958d1411171d5e7aa16c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155018 mx53_pcba: update Ripley AUX input to 950mA and charge current
+a97867b7e308026eaa4e958d1411171d5e7aa16c 2a9c716dfb759e63480acbf6eaf5a023bd23e859 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155138 mx53_smd/mx53_loco: Add i2c retry to fix DA9053 i2c NAK issue
+2a9c716dfb759e63480acbf6eaf5a023bd23e859 f8d3b88eccb22517174c7233f13ad4da477490b3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155156 [MX6]Clean up debug info in uboot
+f8d3b88eccb22517174c7233f13ad4da477490b3 b2f700555a12e913278eda14a65eb9429aa044d8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00151255 mx53 QS: Enable VUSB_2V5
+b2f700555a12e913278eda14a65eb9429aa044d8 d8b2b2ba1de1b37d56db6147e960345f2382a066 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155133: Add sata support for imx6
+d8b2b2ba1de1b37d56db6147e960345f2382a066 c70a9a047552ccb9de77c7527fae13d75021b52c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155240 mx53_smd: Fix a bug that hangs on printf() in board_init
+c70a9a047552ccb9de77c7527fae13d75021b52c a0789d221e34f3e9671bf2cfa6b4552f17527db1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154672: Change to use rom plugins for mx53 boards
+a0789d221e34f3e9671bf2cfa6b4552f17527db1 7863daf92f679cbec3599c19311eb5bf12b19777 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155472 mx53_loco: support both of RevA and RevB in uboot
+7863daf92f679cbec3599c19311eb5bf12b19777 588e750ab2fabb9b6d60f7bf8b43b96bc700a1d5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00155284 mx53_smd: move I2C access to board_init_late for system hang issue
+588e750ab2fabb9b6d60f7bf8b43b96bc700a1d5 a869aeaa01c6425b91bd3f436061f2a4779d57f1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154666-1: Align u-boot mmc command with community
+a869aeaa01c6425b91bd3f436061f2a4779d57f1 d4adc8cd0160658ce19b43516ea756aa74098eea qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154666-2: Align u-boot mmc command with community
+d4adc8cd0160658ce19b43516ea756aa74098eea ed3499df3ae6d747fec7cc5f00d6e0980918504c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154666-3: Align u-boot mmc command with community
+ed3499df3ae6d747fec7cc5f00d6e0980918504c 9506dc6f57ef1e4202b031e0e6170a57fa4fdd65 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253490 +0800	am: ENGR00154666-4: Align u-boot mmc command with community
+9506dc6f57ef1e4202b031e0e6170a57fa4fdd65 7b9b2ed828733dfd07b7933888ba8cc67c339a34 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00155739: mx53 evk mmu wrong mapped two csd slots
+7b9b2ed828733dfd07b7933888ba8cc67c339a34 030c6d873ad8a300d979ce41b5183601069b389a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00155279: Change ESDCTL_0x82228080 to ESDCTL_0x82226080 for mx35
+030c6d873ad8a300d979ce41b5183601069b389a 22e27ae6c4d4bc6cde2131211b7ece2f7709ca71 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00155283: Set dpgdck0_2_en to 0 when freq is lower than 300MHz
+22e27ae6c4d4bc6cde2131211b7ece2f7709ca71 63b580835177c4ac16d1d46d3f0cd47dc1b5535f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00139254: Enable MX6Q Uboot Splash Screen
+63b580835177c4ac16d1d46d3f0cd47dc1b5535f 6455593cbb2d34a433947579bfeb2140507c705d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156034: Fix mx53 evk build error
+6455593cbb2d34a433947579bfeb2140507c705d 08b77cd7d72df063757ea3c0e409af35aae96dd7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156098 mx53_smd/mx53_loco: DA9053 I2C SDA stuck low issue on bootup
+08b77cd7d72df063757ea3c0e409af35aae96dd7 c172b56d966a5b7349eb95cbe763c647df609529 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156304 eMMC: Need to update partition config after changing boot partition
+c172b56d966a5b7349eb95cbe763c647df609529 fd9a199a50b5867fcc825a2b22d9683c9c52bd1c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156389: turn off child clocks before reconfigure perclk_root
+fd9a199a50b5867fcc825a2b22d9683c9c52bd1c 11803c9a0f84f937e56ad4eb33847d9034d0587f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156405 ESDHC: Add workaround for auto-clock gate errata ENGcm03648
+11803c9a0f84f937e56ad4eb33847d9034d0587f 72b40079a97d70bbdeebcac1d56c7121c0ef2278 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156670-1 ESDHC/USDHC: Remove delay before each cmd and some bug fixes
+72b40079a97d70bbdeebcac1d56c7121c0ef2278 7ee04a2271b26ba5da10c878e3f1739b6a9774cb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00156670-2 MMC: Fixed some bugs in common code
+7ee04a2271b26ba5da10c878e3f1739b6a9774cb c0ce1b776ee5ae1ff7cfa37166d160da04bac01c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00155569 mc34708: change global reset time as 4s of LOCO and PCBA
+c0ce1b776ee5ae1ff7cfa37166d160da04bac01c 53b936009165e656115c3bec8021ae74d24802b6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253491 +0800	am: ENGR00157419: Correct default environment's mmc device in mx6q
+53b936009165e656115c3bec8021ae74d24802b6 f0b60d39f96f87b9945c7112eaf89a5cb3654df6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00157468: Fix default environment's "mmc dev" type error
+f0b60d39f96f87b9945c7112eaf89a5cb3654df6 c5343cd8a334bac61c289f232a28225f448365a5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00157538 remove VDIG_PLL setting in plug-in code
+c5343cd8a334bac61c289f232a28225f448365a5 c7a9f62d2a5e3938200be53a438bae7dd0f65735 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00158184 mx53 smd: use highest value for unknown board revision value
+c7a9f62d2a5e3938200be53a438bae7dd0f65735 e7cd8f610ae6dcf984d64df3303da508f4b51481 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00159696 [MX6]Enable lpddr2 board
+e7cd8f610ae6dcf984d64df3303da508f4b51481 549506dc1390a40ef6369d818c957641d6029c34 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00159740 Android: Fastboot: enlarge max image size to 148MB
+549506dc1390a40ef6369d818c957641d6029c34 1c89291a94b7bfef6c79cb8a95c73a70c7347fb3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00159845 [MX6]lpddr2 board, put MMDC into power saving mode
+1c89291a94b7bfef6c79cb8a95c73a70c7347fb3 9943bb335c4314a5b0bae5d41a3c5a4a024d005a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00139279-1 MX6Q: add env_embedded module for CONFIG_ENV_IS_NOWHERE
+9943bb335c4314a5b0bae5d41a3c5a4a024d005a d28efd2745fbfebbaa1066edcd77b0b7b1dd89e7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00139279-2 MX6Q: add mfgtool support
+d28efd2745fbfebbaa1066edcd77b0b7b1dd89e7 6b46f43377b57b08929ddabe65fc5ce5b75b4043 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00139279-3 MX6Q: invalidate the D-CACHE
+6b46f43377b57b08929ddabe65fc5ce5b75b4043 9b2b4e58360b39996106e95fb18fae91a25df235 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00156930: Update MX35 DDR2 scripts
+9b2b4e58360b39996106e95fb18fae91a25df235 808ddc4931cc21c60f89bfc1074b6cd9be043e8d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00156934: Update mx35 AIPS max dbg m3if esdctl settings
+808ddc4931cc21c60f89bfc1074b6cd9be043e8d 1cfb5fa1db95f8d80a00a38226fae83b4e114a5d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00160507 Update the IOMUX implementation for MX6
+1cfb5fa1db95f8d80a00a38226fae83b4e114a5d 932bb0007b00d617373c580a9f9be56e44de1578 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00160725 fastboot: fix the serial number display error
+932bb0007b00d617373c580a9f9be56e44de1578 746378dcaff5a75dce9b264817c28d0958ad2c2c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253492 +0800	am: ENGR00160399 Added support for the MX6Q Sabre-lite board
+746378dcaff5a75dce9b264817c28d0958ad2c2c 5f0f0f929275937d9221042d5b319bcfea310fea qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00160514: clean up compiler warning for mx6q
+5f0f0f929275937d9221042d5b319bcfea310fea a73046dfdb1728691ab07e1995717c385b138a0d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00139221 USDHC Add SDXC UHS-I support
+a73046dfdb1728691ab07e1995717c385b138a0d d2851aeeb9827a3ed860900c4241c6dfe56dde34 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00161004 MX6Q Uboot Rename sabreauto to arm2 board
+d2851aeeb9827a3ed860900c4241c6dfe56dde34 656defbb0d48857c121ecc3432f617b02187c394 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00161125 Update MX6Q Sabrelite config to boot from MMC by default
+656defbb0d48857c121ecc3432f617b02187c394 e27b5b613894af82a9b986327581e2f83cde6a2f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00161133: Add spi-nor support for mx6q
+e27b5b613894af82a9b986327581e2f83cde6a2f a5de0a837f3e0b168325d9ff1f22b67e0e1d65f3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00161126 Enable Hush parser in MX6Q Sabrelite config
+a5de0a837f3e0b168325d9ff1f22b67e0e1d65f3 2dc30ee543376c88c4344b44018be41fd123cea7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00139215 iMX61 Uboot support blow fuse
+2dc30ee543376c88c4344b44018be41fd123cea7 a7abd77113df1155d5bd2204a85d76e0c2c703a7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00161277 Add fuse access capability for MX6 Sabre-lite
+a7abd77113df1155d5bd2204a85d76e0c2c703a7 73ba5391d2cfba3e2e717ce289395d71544baaaa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253493 +0800	am: ENGR00161294 Update MX6 code to read MAC address from fuses
+73ba5391d2cfba3e2e717ce289395d71544baaaa ba8afb5effc39abe3a9965c8510197b493d8d01c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161254 MX6Q: Add NAND support in Uboot
+ba8afb5effc39abe3a9965c8510197b493d8d01c 1f3bd3d7d0851606c03c8a91d0de87bab5a14ff5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161296 Update the MX6 Sabre-lite environment option in the config file
+1f3bd3d7d0851606c03c8a91d0de87bab5a14ff5 02fc30555cb5f49a431d0f0e3e0bd1171eb17e15 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161373 Move the MAC address read from fuse code to MX6 SoC file
+02fc30555cb5f49a431d0f0e3e0bd1171eb17e15 ba1409a1a16bc658a9a8ee155cf76c7fc4649a77 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161317 - MX6Q: Integrate plugin and dcd DRAM init script in uboot.
+ba1409a1a16bc658a9a8ee155cf76c7fc4649a77 68df5aba3c75cfc9c998f85c7ad8366d34d5c8d0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00157106 uboot mx6q: adjust IPU axi-id0/1 Qos value
+68df5aba3c75cfc9c998f85c7ad8366d34d5c8d0 4cac9dd6b9ea906ee047ddd27e60d6a76f69095d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161415: mc34708: set 1p5
+4cac9dd6b9ea906ee047ddd27e60d6a76f69095d a7f7b6dbfc7a703afe0e2d658415679f574cdb1a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161354 MX6Q ARM2 U_BOOT: "mmc dev 0" or "mmc dev 1" cmds will hang
+a7f7b6dbfc7a703afe0e2d658415679f574cdb1a 79cb26bb7915d8ba0f5691c8d0d9a25d5e4e0aaf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161691 Manufacturing update for Sabre-lite
+79cb26bb7915d8ba0f5691c8d0d9a25d5e4e0aaf 8bc21c2224fd1321db7da8b587f8e362fb3e44a9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161846 uboot mx6q_arm2: adjust IPU axi-id0/1 Qos value
+8bc21c2224fd1321db7da8b587f8e362fb3e44a9 282017c9725277a43c9ac70884e4002074bab426 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161860 Fix build issue when enable NAND in Uboot
+282017c9725277a43c9ac70884e4002074bab426 d7f1eedf27b56cd38b3902c0b94caa0e45a0b8f7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00161852: remove u-boot build warnings for mx6q
+d7f1eedf27b56cd38b3902c0b94caa0e45a0b8f7 d4f8297da365f6d3088eb88fc19898259d7a39f1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00155891 : Fix reboot stress test failed issue
+d4f8297da365f6d3088eb88fc19898259d7a39f1 60dedac681d82ee612c74cc4be5e8a2e76345af0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00162437 uboot mc34708 pcba : add spi support on mc34708
+60dedac681d82ee612c74cc4be5e8a2e76345af0 ea126e2d996e6d7065d7feaf5df1617bd9228688 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00162570: MX6-Increase VDDSOC_CAP voltage to 1.2V
+ea126e2d996e6d7065d7feaf5df1617bd9228688 b34492544e3dab6b333f12a9e39d7472f0a38ae7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253494 +0800	am: ENGR00162491 Android: MX53_SMD: enter recovery mode by key.
+b34492544e3dab6b333f12a9e39d7472f0a38ae7 94075dfa65da36e61bd5579d6e2b631df094c9b6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00162709 Add Support for MX6Q Sabre Auto
+94075dfa65da36e61bd5579d6e2b631df094c9b6 2177109949482fb06ffd97c497e8b147be5f5d63 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00162874: Add enet clk change support for mx6
+2177109949482fb06ffd97c497e8b147be5f5d63 519e4fe4df38ac61d7fe827a87b01281a4a71894 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00162938 MX5: Add download_mode command in uboot to enter MFG download mode.
+519e4fe4df38ac61d7fe827a87b01281a4a71894 4da11f245116a93574a50a04b1c049529e55f84a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00162937 - FEC: Fix FEC cannot load kernel accroding tftp.
+4da11f245116a93574a50a04b1c049529e55f84a b60895225d5821f53eeba3739f124d76f2792cb0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00162717 mx53_smd/mx53_loco DA9053: reset da9053 i2c and add dummy write
+b60895225d5821f53eeba3739f124d76f2792cb0 9a57d61fa2492f08de11345496da7c8488ba6a2b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00163040 - FEC : Fix ethernet cannot work after system sleep.
+9a57d61fa2492f08de11345496da7c8488ba6a2b 803c37b458e1a213a7bbf0c1a648d82d380f1c67 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00163239-1 mc34708: fix not charging issue in uboot
+803c37b458e1a213a7bbf0c1a648d82d380f1c67 0fd6ff1e9f43b36eebdefa945e9cac684f363725 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00163239-2 mc34708: enable extra charging circuit
+0fd6ff1e9f43b36eebdefa945e9cac684f363725 367846f27534e0dcb8eaaa2c7bac2d42227f357d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00163370 Android: uboot: mx53_smd fix warnning message
+367846f27534e0dcb8eaaa2c7bac2d42227f357d 705945913916856e30d89fbd6cc519b1122d247e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253495 +0800	am: ENGR00163513 MX6Q-UBOOT : Add download_mode cmd
+705945913916856e30d89fbd6cc519b1122d247e d10805d2e2f00d10b58e674d56c590bdb25d70e7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00163704: MX5X: add i2c recovery function in board_lateinit.
+d10805d2e2f00d10b58e674d56c590bdb25d70e7 eede4f50a9afde2ba594f5420433e32dde7305dc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00169500 mc34708 mx53_loco: 4s power off in QS board
+eede4f50a9afde2ba594f5420433e32dde7305dc 8a013e0ad1fd314f9a61edabd0dd53717bb38263 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00169654 mx53_pcba: enable DDR auto-calibration
+8a013e0ad1fd314f9a61edabd0dd53717bb38263 29b3b9cec4525b771eb9bbaa47573776ba358e23 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00169655 pcba : merge i2c recovery patch to pcba
+29b3b9cec4525b771eb9bbaa47573776ba358e23 63d8ed1b60eb8b6cf7d92fae1b52c7dea741ff7b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00169741 UBOOT : DDR3 initialization based on the MX6Q ARD
+63d8ed1b60eb8b6cf7d92fae1b52c7dea741ff7b 937438127c2b341e836fe9d03c00ab38cdcda15f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00169919 MX6Q ARM2 U-Boot : Support Pop CPU Board
+937438127c2b341e836fe9d03c00ab38cdcda15f 0711f113717ba09c7b776a0437595dd46b8bf4ad qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170299-1 Android: add support fastboot function
+0711f113717ba09c7b776a0437595dd46b8bf4ad c4f07a46c762f81de58226652d8607f47b08d647 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170299-2 Android:MX6Q_SL: add board support for recovery and fastboot.
+c4f07a46c762f81de58226652d8607f47b08d647 39a4f3c0fad3662843821748d1cc6719a532af25 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170299-3 Android: add android board configure file.
+39a4f3c0fad3662843821748d1cc6719a532af25 b6363a21db239fa2c264dac104fbedd219528d70 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170372 mx6q sabrelite: make TF card as default boot media
+b6363a21db239fa2c264dac104fbedd219528d70 6febabfe685cca7c572e0d729038abe147a678cc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170405 Android: MX6Q_SL: Fix recovery key detection
+6febabfe685cca7c572e0d729038abe147a678cc 37038113b85ea66b9038ce9ae75ad6c7b00420ca qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170516 Enable the master mode for ENET PHY on MX6 Sabrelite
+37038113b85ea66b9038ce9ae75ad6c7b00420ca 6af68ae15917a97ebb13619c9cda6c01c325cfcf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00170644: Enlarge mmc read size to 4M in default env
+6af68ae15917a97ebb13619c9cda6c01c325cfcf 06ab6776b398deeaef8b9922a4c84ae9411e422d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253496 +0800	am: ENGR00169544 - FEC : fix "imx5x bootp command cannot work well".
+06ab6776b398deeaef8b9922a4c84ae9411e422d e794fadbbae7c8e7d9a5f7d9ad698eec499e8131 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253497 +0800	am: ENGR00163697 - FEC : Adjust MX53 Network stream throughput.
+e794fadbbae7c8e7d9a5f7d9ad698eec499e8131 4d061def76e76e674f625ffe9aad1ce3cd933c8d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253497 +0800	am: ENGR00160621 [MX6]Workaround for reset issue
+4d061def76e76e674f625ffe9aad1ce3cd933c8d 6f976caeb7b4f2c03fbb4442c9c5fe6889f44e9b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253497 +0800	am: ENGR00162642: Fix bug in setting VDDSOC voltage
+6f976caeb7b4f2c03fbb4442c9c5fe6889f44e9b 2e4ad6c74e704b8d0520ec95e457918eef1155de qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00170768 Android: Fix fastboot can't used on MX6Q SL MMC1 device.
+2e4ad6c74e704b8d0520ec95e457918eef1155de e36493acf186c95e00b9a2bb5ba53a94bc158c5e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00170837 [MX6]Add temperatuer check into uboot
+e36493acf186c95e00b9a2bb5ba53a94bc158c5e 47944414b6ec3efce2d3b7b76cea052cf73616fb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00170876 Android: align boot commands with user guide.
+47944414b6ec3efce2d3b7b76cea052cf73616fb 8aca39c46c206e7a13d6575a94a7a53f36ee035a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171008 MX6Q/MFGTOOL : disable the workaround for MFGTOOL
+8aca39c46c206e7a13d6575a94a7a53f36ee035a f674206d7b7a0ef4bc29098c90b69cb5c3a7b4b4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171091 [MX6]Remove workaround for reset issue
+f674206d7b7a0ef4bc29098c90b69cb5c3a7b4b4 ec9a1cf9fd0a8cc95a9393b2f7107c77d08e0004 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171115 add fec support in mx6q sabreauto board
+ec9a1cf9fd0a8cc95a9393b2f7107c77d08e0004 250c1db71828200ff97ed5fd2f2b3343f160b78e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171622 - FEC : workaround for Gb enet in sabrelite board.
+250c1db71828200ff97ed5fd2f2b3343f160b78e b85e2378bf771edcdbac4f96ec5f6e5c9a3e7c73 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171633 MX6Q: config: android: update default config.
+b85e2378bf771edcdbac4f96ec5f6e5c9a3e7c73 62d7e61e236b1ae5d48e17d954a5b3125b74bcc8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171872 Android: update sabrelite default config fix a typo.
+62d7e61e236b1ae5d48e17d954a5b3125b74bcc8 4d28e78a1ebdd51c5d414e074d329391fd4e58d2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171771 [MX6]Need to power down PCIe by default
+4d28e78a1ebdd51c5d414e074d329391fd4e58d2 f46f3f88e1f7db228d58530ed1862c9fcc7a8baf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00171968 mx6q sabrelite: fixup the sabrelite default bootargs typo
+f46f3f88e1f7db228d58530ed1862c9fcc7a8baf d0ab3043d5ab9bbeb0e146d6d855dc7a76773096 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00172490: FIX: PMIC registers may not be accessible in u-boot via SPI
+d0ab3043d5ab9bbeb0e146d6d855dc7a76773096 4539ff887b977c725c2493c1492fc7cc8dcddaf3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253498 +0800	am: ENGR00172541 Delete bootcmd_base from the MX6 Sabre-lite config
+4539ff887b977c725c2493c1492fc7cc8dcddaf3 5697f3b07c703f5662b255ff95abe351afd0f15d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00172343 Add suport for i.MX 6Q Sabre Smart Device
+5697f3b07c703f5662b255ff95abe351afd0f15d 5ddf456ba799f2b900df96bfd8cb585324aaec52 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00173579 Revert FEC: Fix FEC cannot load kernel accroding tftp.
+5ddf456ba799f2b900df96bfd8cb585324aaec52 4dc71c0487a9f8d699754713c6f09e60bcf7b30a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00173659 MX6Q_UART Change Phyisical to Virtural Port Mapping
+4dc71c0487a9f8d699754713c6f09e60bcf7b30a 5d7a22eb470937d11242dc38b9e84a58da2fc6a9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00173966-1: i.mx6dl: add the iomux head file
+5d7a22eb470937d11242dc38b9e84a58da2fc6a9 9515df9be1a7b49a4bbeefcd3098f1c33e1bc8b3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00173966-2: fec: add i.mx6dl support
+9515df9be1a7b49a4bbeefcd3098f1c33e1bc8b3 2e728f686627bdd516a9257886de92461ffa0f16 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00173966-3: ARM2: i.mx6dl: add the DDR script
+2e728f686627bdd516a9257886de92461ffa0f16 8ef9023176c63fcd660220f8514d18fddb4a6ff1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00173966-4: ARM2: add initial support for i.mx6sdl
+8ef9023176c63fcd660220f8514d18fddb4a6ff1 8b7772a9b51130b53e006299d82189aa433c12ff qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174055: i.mx6dl: ddr: update ddr script to 400M_64bit_v1.1
+8b7772a9b51130b53e006299d82189aa433c12ff 0949b997ccd3910650b199e76a2ee7aeae17e832 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174155: i.mx6sdl: add 32bit DDR support on ARM2 board
+0949b997ccd3910650b199e76a2ee7aeae17e832 693dd74a68170d5ae0a4339beb168377d9897ed2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174155-2 i.mx6sdl: enable i.mx6solo config by default
+693dd74a68170d5ae0a4339beb168377d9897ed2 5055394b8410661f35052edd7111a9536aafa2b3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174155-3 i.mx6sdl: enable i.mx6solo config by default
+5055394b8410661f35052edd7111a9536aafa2b3 31a3d7b7a2a682c93f4a1658a8dd7b92b5447b9c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174221 imx6dl remove unnecessary configs for NAND
+31a3d7b7a2a682c93f4a1658a8dd7b92b5447b9c b8ff2fed89c42f6d92cf797894a79fc148ffecff qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174104-1: Add conditional CONFIG to fix build break
+b8ff2fed89c42f6d92cf797894a79fc148ffecff 29755ea4415b6db0010424b0786d5ff16eb85e06 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253499 +0800	am: ENGR00174104-2: Add mx6dl iram boot config
+29755ea4415b6db0010424b0786d5ff16eb85e06 f49c09b8adc63cfab91c6ca2ca2a4efa9e5b4b7f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174104-3: Fix mx6 iram boot configs' issue
+f49c09b8adc63cfab91c6ca2ca2a4efa9e5b4b7f f76bb6247f9b27a7a7ab2f8601ea61d11d5e91fc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174104-4: Fix iram build error in imx6
+f76bb6247f9b27a7a7ab2f8601ea61d11d5e91fc 12f8f3008348b9af86b7cf69457fc7db7abed453 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174230: Move partition command from nand to sata in mx6
+12f8f3008348b9af86b7cf69457fc7db7abed453 e851c51fb5dee6c63a1efa1a79cae10ad237b4dc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174407 imx6dl: add MFG tool support
+e851c51fb5dee6c63a1efa1a79cae10ad237b4dc fb3daf5d19ca01a0ba08e48664363ad60b4003c9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174326 MX6Q_SABRESD: add android related function and config.
+fb3daf5d19ca01a0ba08e48664363ad60b4003c9 55ca9aa85e5e27730fbac744545ba2695ec75d5d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00139213: Add read and change voltage support for mx6
+55ca9aa85e5e27730fbac744545ba2695ec75d5d 8f26b5a5201fe9585fd2d29dbdf95e47b00cd836 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174626: Fix cmd_regul build error
+8f26b5a5201fe9585fd2d29dbdf95e47b00cd836 9872007842fe090bc8eab34b668628d00687716a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174625: Remove build warnings for mx6q
+9872007842fe090bc8eab34b668628d00687716a ffd078a26bdd647bea6379adfdb7ac8a233fbc09 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174536-1 booti: add booti command support.
+ffd078a26bdd647bea6379adfdb7ac8a233fbc09 3b13c292bd432395c8e34fae50cdade89a5ed5f6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174536-2 MX6Q_SABRE[SD/Lite]: change bootcmd to booti
+3b13c292bd432395c8e34fae50cdade89a5ed5f6 a820cfd8bec1e464d3a714b2a75d243b91da1c73 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174821 booti: fix build error when not configure android partition.
+a820cfd8bec1e464d3a714b2a75d243b91da1c73 2b73837f92d09b7ce1a81e7d11b39fd81d30f002 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174841 [U-Boot]Add a command to erase any pre-saved environment
+2b73837f92d09b7ce1a81e7d11b39fd81d30f002 3e179ddcf7952edd27bfa673ede99d05276b4a50 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00174868 mx6dl arm2: change the default console as ttymxc3
+3e179ddcf7952edd27bfa673ede99d05276b4a50 509dec23529a2ca41b04f7d8ee9c1d95706ff241 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00175091 MX6Q_SABRESD: android: add recovery check
+509dec23529a2ca41b04f7d8ee9c1d95706ff241 8365517055f3ba631b6cce9b04d65ff4715abd56 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253500 +0800	am: ENGR00175117 [MX6DL LPDDR2 Board] Apply Initializtion script and enable U-Boot
+8365517055f3ba631b6cce9b04d65ff4715abd56 13ddfc2c8adc8c8300b1bde6a7e902acc6133837 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00175981-1 mx53 smd: add CPU 1.2GHz configuration
+13ddfc2c8adc8c8300b1bde6a7e902acc6133837 f76a62296c4a5bb1ca85871d79f970e0b1d3da75 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00175981-2 mx53 smd android: fix build error
+f76a62296c4a5bb1ca85871d79f970e0b1d3da75 0f5ad3bbba689618ae146ba7328d3923ac67131d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176186 mx6dq ARD: add MFG tool support
+0f5ad3bbba689618ae146ba7328d3923ac67131d 0fc0eea1b80ae78cf51465ba2ad22fdf6c522d3e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176235 mx6 ARD: Add splash screen support
+0fc0eea1b80ae78cf51465ba2ad22fdf6c522d3e ad3faabf7b7b1c3b4ad3af855563a7d832d457ba qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176328 change fastboot vid to google orignal
+ad3faabf7b7b1c3b4ad3af855563a7d832d457ba 36615dc07b474a6553989d5d30874d192438ee3f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-1 mx6solo sabreauto: add configuration support
+36615dc07b474a6553989d5d30874d192438ee3f 277e2c39d2bd23993bf2b2ffd410a2ebc3f842f7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-2 mx6solo sabreauto: add DDR3 support
+277e2c39d2bd23993bf2b2ffd410a2ebc3f842f7 585c15c865af637e8271f51aa1e7f85fba9d6fa4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-3 mx6solo sabreauto: add board support
+585c15c865af637e8271f51aa1e7f85fba9d6fa4 e91eec4fd48bf2f433c5150945b501500ec1e52c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-4 anatop: add support for mx6solo/dl
+e91eec4fd48bf2f433c5150945b501500ec1e52c 2f7b42f4cff9119cac138d39fa7388dfce0e759a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-5 mx6solo sabreauto: set system_rev
+2f7b42f4cff9119cac138d39fa7388dfce0e759a c364813d2b598a7d7f280706d05990120aec86e8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-6 mx6solo sabreauto: remove build warning
+c364813d2b598a7d7f280706d05990120aec86e8 61f095a659f1cec72451a6339d7688ff1836f314 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-7 bootm: remove build warning
+61f095a659f1cec72451a6339d7688ff1836f314 33dc4791d852aa742729746902bd4a5536794c04 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-8 cmd_bootm: remove build warning
+33dc4791d852aa742729746902bd4a5536794c04 e9278593d7909850347f40e1a8abcf121d83f091 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176347-9 fec : increase wait time for phy link
+e9278593d7909850347f40e1a8abcf121d83f091 e8e531ad3ee54a671d4dcfa61bdd395c590f33cb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00177070 android: isolate booti command to fix build.
+e8e531ad3ee54a671d4dcfa61bdd395c590f33cb 82493c302651d0bd141fdd27411e0123af4ece71 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253501 +0800	am: ENGR00176834-1 - [imx6] : add fsl_system_rev to check chip and board.
+82493c302651d0bd141fdd27411e0123af4ece71 cb9d5626f7b78d3bc77759f45c1e4bc03e19bbbc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253502 +0800	am: ENGR00176834-2 - i.MX6DL sabresd: board bringup
+cb9d5626f7b78d3bc77759f45c1e4bc03e19bbbc 00956709e5c2db6ffe9a8448a039250149c8a4e5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253502 +0800	am: ENGR00176834-3 - i.MX6DL sabresd : DDR init script update
+00956709e5c2db6ffe9a8448a039250149c8a4e5 b7c9b221249a493c80d7fa1f11238c67dc53c214 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253502 +0800	am: ENGR00177244 - imx6 : Use common fsl_sys_rev to check board reversion
+b7c9b221249a493c80d7fa1f11238c67dc53c214 6e7f81599790acb73c658f7d274dcd5638297ca5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253502 +0800	am: ENGR00177587 MX6Q_ARM2: add android config for this board.
+6e7f81599790acb73c658f7d274dcd5638297ca5 af0d9593d44c16fdfe1ebb165979846f8d9c2fe1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253502 +0800	am: ENGR00176837-1 - imx6 sabreauto : add net support for revb boards.
+af0d9593d44c16fdfe1ebb165979846f8d9c2fe1 3fac0874ed8a1d7ce0b2b9663e94c21422015caa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00176837-2 - imx6 sabreauto : add i2c3 support for revb board.
+3fac0874ed8a1d7ce0b2b9663e94c21422015caa dbbf1d6623e8c23c9cf47117854536efb98913eb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00176837-3 - FEC : detect phy ID to match the phy type.
+dbbf1d6623e8c23c9cf47117854536efb98913eb 76f7ce3df8a4123906eb9b085bc33628455fbbe7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00176837-4 - imx6solo sabreauto : remove Ethernet phy MICREL macro.
+76f7ce3df8a4123906eb9b085bc33628455fbbe7 d0285578ecb95f48d0ba1c3a6e925fb767e5341b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00177657: Add mfg configs for mx6dl sabresd and mx6solo sabreauto
+d0285578ecb95f48d0ba1c3a6e925fb767e5341b 47bf1fcc84eaf38f1ef85149fc50805683902e92 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00177783: i.mx6dl: sabresd revB: update DD3 init script
+47bf1fcc84eaf38f1ef85149fc50805683902e92 f2c697b247e8c9c5317f5b33b8f0a06868391b2d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00177905 : i.mx6q sabresd: add fec auto discover phy configuration.
+f2c697b247e8c9c5317f5b33b8f0a06868391b2d 94d39d74316e7a6aaab0a89e350ac973e7dd0f9c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00177909: mx6q/mx6dl SabreSD: SPI-NOR flash not probed as expected
+94d39d74316e7a6aaab0a89e350ac973e7dd0f9c 461cc08851bc5355b42871a9a8c77939ac372164 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00177954 mx6solo sabreauto: remove MMDC1 setting
+461cc08851bc5355b42871a9a8c77939ac372164 db49635d5fc1873894e8c57ad45de99413875011 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: mmc: CMD7:MMC_CMD_SELECT_CARD response fix
+db49635d5fc1873894e8c57ad45de99413875011 329fd219edb3012493e7e25268a705c4d2f6f205 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00178547 i.mx6dl sabresd: add android config file
+329fd219edb3012493e7e25268a705c4d2f6f205 106cc87991d32d5c43cc3cc0a628a3deaac84174 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253503 +0800	am: ENGR00178024 mx6solo sabreauto: add nosmp arm_freq=800 by default
+106cc87991d32d5c43cc3cc0a628a3deaac84174 def6bb98252d45699a58cce612ddd98eadf1e0de qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00178558 mx6solo sabreauto: integrate DDR3 script V1.1
+def6bb98252d45699a58cce612ddd98eadf1e0de b979767c5531ff2599c6e79539eb5b6661316b60 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00176834-4 - [imx]:add macro define to include chip head file
+b979767c5531ff2599c6e79539eb5b6661316b60 1ad82d7774bb8da1bdde0e46c8e560c975a5c568 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00176837-4 - FEC:enable some macro define for all chip
+1ad82d7774bb8da1bdde0e46c8e560c975a5c568 fc1130f9e2a085c4964c2e07452d3ae547e3612c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00139223-1 [MX6Q] Secure Boot, enable HAB on ARM2 platform (Stage 1)
+fc1130f9e2a085c4964c2e07452d3ae547e3612c e4e24dd2fda02a9f398f2535cd893a877332c583 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00139223-2 [MX6Q] Secure Boot, enable HAB on ARM2 platform (Stage 2)
+e4e24dd2fda02a9f398f2535cd893a877332c583 1e54ecb9db723057c86e5f55d53c75a3923b909e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00178989: Disable secrity boot configs.
+1e54ecb9db723057c86e5f55d53c75a3923b909e f52062660d9eb3f72246f4067ecd013747b0bd4f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00176537 mx6qsabreauto: i2c3_sda route setting
+f52062660d9eb3f72246f4067ecd013747b0bd4f 0f790cb1ad41e2e0ba14467580a8c197fc45fe1d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00179150 MX6Q_ARM2 HAB Boot : avoid uImage authentication on un-fused chip
+0f790cb1ad41e2e0ba14467580a8c197fc45fe1d ad63e0b3493e249b9deb781e9092b761c470727b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00179437-1: u-boot: iomux: NO_PAD_I/NO_PAD_MUX not set corretly
+ad63e0b3493e249b9deb781e9092b761c470727b 0d67bc14c0e030223be6570d68a26bd878bb7d8d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00179437-2 u-boot: mx6q: iomux: code clean up
+0d67bc14c0e030223be6570d68a26bd878bb7d8d 5aa3adfed366485b16c7395c0933d12a9fdc638f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00179000 i.mx6q/dl: sabresd: Add the splash screen support
+5aa3adfed366485b16c7395c0933d12a9fdc638f c855f6225f1590ac74220c141ebdd58ae83227fc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00179013 : MX6Solo/Quad : SABREAUTO: Add Parallel NOR Support
+c855f6225f1590ac74220c141ebdd58ae83227fc 64c1c2e870400e3c18ecd00848dce0c55a4f67a9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: ENGR00179762: i.MX6: print the SOC revision correctly
+64c1c2e870400e3c18ecd00848dce0c55a4f67a9 a92d9e16f8fe081d75d728ee6303728b2bdd36b6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: MX: Added Freescale Power Management Driver
+a92d9e16f8fe081d75d728ee6303728b2bdd36b6 a9dc1074cf13532f7f672ec5889bccff8fd2d66d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253504 +0800	am: misc:pmic:core New generic PMIC driver
+a9dc1074cf13532f7f672ec5889bccff8fd2d66d c86d9f0046d9bfab6f510befa998eb42e9f49432 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: misc: pmic: use I2C_SET_BUS in pmic I2C
+c86d9f0046d9bfab6f510befa998eb42e9f49432 b0c69bbbb2d71551d3af47e63c82841327e095a2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: misc: pmic: addI2C support to pmic_fsl driver
+b0c69bbbb2d71551d3af47e63c82841327e095a2 72cdaf6a7114c3afd3036abe84ba60ccf5366898 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: misc: pmic: fix regression in pmic_fsl.c (SPI)
+72cdaf6a7114c3afd3036abe84ba60ccf5366898 f104ac035138ffbd14b358b64e2fa781cb4f2b91 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: Add generic gpio.h in asm-generic
+f104ac035138ffbd14b358b64e2fa781cb4f2b91 5151648a3e3f26de3d1723e8e591a63b3491e5cd qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: IMX: uniform GPIO interface using GPIO framework
+5151648a3e3f26de3d1723e8e591a63b3491e5cd aab472f29f08864c2588907bfafd348c0ced96af qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: MX: Added definition file for MC13892
+aab472f29f08864c2588907bfafd348c0ced96af c7304484da6556a1a84e82ffada3ae5a99c6b929 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00180623 fastboot: add fastboot in MX6Q_SABERSD boards
+c7304484da6556a1a84e82ffada3ae5a99c6b929 61f1dda4f7fc7d4bf1ea5184106fc6b335486cdf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00180955 mx6q sabresd snvs TKT104835: fix long press ONOFF failed in u-boot
+61f1dda4f7fc7d4bf1ea5184106fc6b335486cdf a0ef6206f137c91aa9d37956f20dd0cfe82e81eb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00181337-1 i.mx6 : add initial support for i.mx6sl
+a0ef6206f137c91aa9d37956f20dd0cfe82e81eb 1920a9392bed80233b187fb55e12c59e8751b404 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00181337-2 i.mx6 : i.mx6sl arm2 add EPDC support
+1920a9392bed80233b187fb55e12c59e8751b404 4f31beac467eeed91519ef7deac01aed5b5f318b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00181337-3 i.mx6: i.mx6sl: add initial support for i.mx6sl ARM2 board
+4f31beac467eeed91519ef7deac01aed5b5f318b d160addd08f05e728016089417841e13c3fac56a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00181337-4 i.mx6 : i.mx6sl: Fix FEC RX CRC Error
+d160addd08f05e728016089417841e13c3fac56a f2f461d4c033cb04ac141d6059f0232505186e65 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253505 +0800	am: ENGR00181621 : MX6Solo SABREAI - Set default boot up to SD Card
+f2f461d4c033cb04ac141d6059f0232505186e65 06aee48a75ae12fc42e0df69da06083407900925 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00181348 pfuze sabresd: pfuze support in u-boot
+06aee48a75ae12fc42e0df69da06083407900925 c3076627314b119c5a4f904ddb965908d1fca62f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00182017 mx6dl sabresd I2C: fix build error and support mx6dl_sabresd
+c3076627314b119c5a4f904ddb965908d1fca62f a0464004dff9a56db4625fd18fa2c925933d502c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00182426 MX6DL: add fastboot support for MX6DL.
+a0464004dff9a56db4625fd18fa2c925933d502c 4ba2255c5f0a80cfbf79f223142c25568957e943 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00182739 sabresd I2C:add i2c recovery function in board_lateinit
+4ba2255c5f0a80cfbf79f223142c25568957e943 e155d14c002d28e2556c9561ee65cbb0cb2eb996 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00182459 fastboot: change vid pid to align with winXP fastboot driver.
+e155d14c002d28e2556c9561ee65cbb0cb2eb996 18eebb747eb77dfa2a070024eed9218e83e54439 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00209059 android: refine fastboot and recovery support.
+18eebb747eb77dfa2a070024eed9218e83e54439 181403112da882931eb1fcfc91a553b0b663134b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00209306 i.mx6:i.mx6sl: fixup the load address for i.mx6sl uImage
+181403112da882931eb1fcfc91a553b0b663134b 76672ce17d862faf7269c729299933fe175d4028 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00180103 MX6 sabreauto: Adjust IPU AXI-id0/1 Qos value
+76672ce17d862faf7269c729299933fe175d4028 3f000724556fe978574cc1f5bcfcb4c8299d229c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00210014 i.mx6 : i.mx6sl : add PAD_CTL_LVE support for pad configuration
+3f000724556fe978574cc1f5bcfcb4c8299d229c ce98c2398c04d04b25a1042510f68ed122ee9cd0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00209899-1 mx6x: add generic gpio interface.
+ce98c2398c04d04b25a1042510f68ed122ee9cd0 e69c943f27929a79ef506e886ec45f4bbde9c943 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00209899-2 MX6Q: cleanup: cleanup fastboot, udc warnning.
+e69c943f27929a79ef506e886ec45f4bbde9c943 e37f64d5151309e86b488d435708b3fd4a3cb2ad qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00209910 Add support for MX6SL mfgtools firmware support
+e37f64d5151309e86b488d435708b3fd4a3cb2ad cd526cf3d5f38b0c3e5914be215249477a4d8a2f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00210918-1 android: add mx6sl android support
+cd526cf3d5f38b0c3e5914be215249477a4d8a2f 85cad975a84a2483a586b8dadd79d788d8a40924 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253506 +0800	am: ENGR00210918-2 cleanup android support, build pass all boards
+85cad975a84a2483a586b8dadd79d788d8a40924 fb18cb493366a1f09f43510a712ef7ff2d65280e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00211038 Fix the PAD_LVE implementation
+fb18cb493366a1f09f43510a712ef7ff2d65280e a72820df1eb175bcabb3bd92afcae785924bc995 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00211117 - U-Boot: Add EPDC splash screen for MX 6DL/S platforms
+a72820df1eb175bcabb3bd92afcae785924bc995 3c76a50ce9ffe2337750a0fec76ff0e670a02b7e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00212287 - U-Boot EPDC splash screen: Disable EPDC splash by default
+3c76a50ce9ffe2337750a0fec76ff0e670a02b7e e977af22a185f2e2be41641cf344d98f2f6b3c46 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00212571 [MX6]Change DRAM ODT setting to save power
+e977af22a185f2e2be41641cf344d98f2f6b3c46 3c2af596cf276c592eb339124d125f1b15da9304 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00212229 [MX6SL_ARM2]uboot: 8bit MMC cards failed to boot on SD1.
+3c2af596cf276c592eb339124d125f1b15da9304 fb182131f04b3dfefc7ef518e3291ae5ecf94358 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00213689 - U-Boot: EPDC Splash Screen failing for MX 6DL/S
+fb182131f04b3dfefc7ef518e3291ae5ecf94358 810cae5712a466a6a92600de397fbc70f8ae3fcf qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00214866 MX6SL ARM2, UBoot : Apply V0.91 LPDDR2 Script
+810cae5712a466a6a92600de397fbc70f8ae3fcf 4875c59d87089ae9a4aae9fe78f6f5aef2e81158 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00214947 MX6 UBOOT : default enable wait mode as default parameters
+4875c59d87089ae9a4aae9fe78f6f5aef2e81158 3571088901ca863729fc8d08ac13b38704d24933 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00215515 MX6: Move IPU QoS and VDOA/IPU/VPU AXI Cache config to kernel
+3571088901ca863729fc8d08ac13b38704d24933 44ef038527354d756c06e4cf68baa2d91bbe0ea8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00215633 MX6DL LPDDR2 : enable plugin mode of system boot
+44ef038527354d756c06e4cf68baa2d91bbe0ea8 8e0d8f78aeb52c088ac2f1a6a490b2d73c34b397 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00215367 MX6 Platforms, remove "nosmp" in default parameters
+8e0d8f78aeb52c088ac2f1a6a490b2d73c34b397 f97a0e2a32a0d9cb8571e7af85e7c9fbc2d0fd01 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00215197 pfuze MX6SL_ARM2: enable LDO bypass on u-boot
+f97a0e2a32a0d9cb8571e7af85e7c9fbc2d0fd01 0c75f1b7d0599afdcd3eafe1b5552d8f07c62900 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00216852 MX6SL ARM2, UBoot : Apply V0.93 LPDDR2 Script
+0c75f1b7d0599afdcd3eafe1b5552d8f07c62900 3301f87a75d9de95081a87ed9fb941b2a160962e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00217114-1 MX6 U-Boot, Secure Boot, one code base for MX6Q/DL/SL
+3301f87a75d9de95081a87ed9fb941b2a160962e 676fcfcd49e2eea3a4e72fc36ff289ea05529673 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253507 +0800	am: ENGR00217114-2 MX6 U-Boot, Secure Boot, one code base for MX6Q/DL/SL
+676fcfcd49e2eea3a4e72fc36ff289ea05529673 c89d6797afc573cfbc029dbd29b62f9918063ee3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00217381-01: mx6sl add sd1 and sd2 to support SD3.0
+c89d6797afc573cfbc029dbd29b62f9918063ee3 32a543396ab1c3f9b91b0ae0383da9054fdf010e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00217381-02: show sd/mmc clk freq for mmcinfo
+32a543396ab1c3f9b91b0ae0383da9054fdf010e de1e20a2b7b83156a0a42f0b11cfc32559fbef38 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00217764 MX6 Secure Boot : Fix NAND BOOT Failure due to secure patch
+de1e20a2b7b83156a0a42f0b11cfc32559fbef38 196c212b8173a14774166eb71f6ad98d6ea6c10b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218067 mx6sl LDO_BYPASS: enable LDO BYPASS in mx6sl by default
+196c212b8173a14774166eb71f6ad98d6ea6c10b 204622a0ba3bce8d3e3c2d8a831749916140798a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218282 MX6Q: fix linker error when more configure enabled.
+204622a0ba3bce8d3e3c2d8a831749916140798a 081cfad7aadee43f9d439e1503b75fed7415f4f5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00217401 common: fix build warning
+081cfad7aadee43f9d439e1503b75fed7415f4f5 aa83fe52c2d8e14baa5ca3a62757b498364bdc92 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218465 Android: mx6sl-arm2: fix fastboot crash issue
+aa83fe52c2d8e14baa5ca3a62757b498364bdc92 1fd7fd988801ab1c260273f829fac4008530e94f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218805 imx6: print the silicon revision correctly
+1fd7fd988801ab1c260273f829fac4008530e94f f24dcc0da226185341f87da5ac5d748335386e5b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218583-1 MX6Q/DL SabreSD:Support LVDS1 splashimage
+f24dcc0da226185341f87da5ac5d748335386e5b e557b2d7ea85f21a603f2de760971d8908a9836f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218583-2 MX6Q SabreSD:Enable splashimage by default
+e557b2d7ea85f21a603f2de760971d8908a9836f ada155c1be724e7804dd30b08f4ee8e284edfdeb qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218583-3 MX6DL SabreSD:Enable splashimage by default
+ada155c1be724e7804dd30b08f4ee8e284edfdeb fd6d33467fba68cc89604125e85bc51ce17af00b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218583-4 MX6Q SabreSD Android:Add splashimage uboot var
+fd6d33467fba68cc89604125e85bc51ce17af00b 17f0687452500ec59e8cf37060ec12cfbd7d6919 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218583-5 MX6DL SabreSD Android:Add splashimage uboot var
+17f0687452500ec59e8cf37060ec12cfbd7d6919 d66e160cded824ccae989d95051642337b6919c6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253508 +0800	am: ENGR00218972 MX6 Secure Boot, Change to dynamic HAB data authentication
+d66e160cded824ccae989d95051642337b6919c6 3e63f33b145024eaa40b055f671b3fa478ae2fd9 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00218915-1 FSL common:Add new boot logo
+3e63f33b145024eaa40b055f671b3fa478ae2fd9 5c6d7c86d6f6bb4d0d504aa6359bab1008f1863e qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00218915-2 MX6 SabreSD:Use new 8bit bmp boot logo
+5c6d7c86d6f6bb4d0d504aa6359bab1008f1863e 83306bc737c3917e0aa465f80857ab16cacbb159 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00219636 MX6 UBOOT : Enlarge command line buffer size
+83306bc737c3917e0aa465f80857ab16cacbb159 2653b1cc6a9e739d9f8739e4e90d340e08c510a0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00219854-1 Enable fastboot feature on mx6q-arm2 board
+2653b1cc6a9e739d9f8739e4e90d340e08c510a0 1d6a8855574559981f801c63c0b46c74c48019a5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00220076 fix the fastboot usb re-connect issue
+1d6a8855574559981f801c63c0b46c74c48019a5 e3e69668856c3836335cf1b93adff29da8c37d35 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00220164 pfuze:rise VDDARM_IN to 1.425V and work around pfuze1.0
+e3e69668856c3836335cf1b93adff29da8c37d35 2b21f760e25f535d2a5a4089025f1ef9ea8f8590 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253509 +0800	am: ENGR00220161: imx6sl: Add MX6SL EVK Support
+2b21f760e25f535d2a5a4089025f1ef9ea8f8590 26940a840c813d80653d57bdc9f5f0611b210cf4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00220486 Modify ODT values for Solo AI
+26940a840c813d80653d57bdc9f5f0611b210cf4 6ab4fec1f9d249a0fecc7975af1d7a4b309ce481 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-1 uboot: MX6Q-ARD: add a NAND boot config
+6ab4fec1f9d249a0fecc7975af1d7a4b309ce481 09b7dbdefba9ba48b2de28e15abb1ad216c6b084 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-2 uboot: mtd: update nand_get_flash_type()
+09b7dbdefba9ba48b2de28e15abb1ad216c6b084 4db8b884e774a2ac041bb4f3d8401b82952ba163 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-3 uboot: gpmi: use the community's nand chip database
+4db8b884e774a2ac041bb4f3d8401b82952ba163 1e26126378698138f3e75cfc68cad3a5accefae2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-4 uboot: gpmi: replace the gpmi_nfc_reset_block()
+1e26126378698138f3e75cfc68cad3a5accefae2 ec0ba3ebe684c51cba476de6ee4808220a24a157 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-5 uboot: gpmi: update the ecc_strength code
+ec0ba3ebe684c51cba476de6ee4808220a24a157 208536dabe500dbe099b0b71778fa2f48b3a05fe qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-6 uboot: gpmi: set default value for busy_timeout
+208536dabe500dbe099b0b71778fa2f48b3a05fe b7db49f246d995c0f0e0cb1a9884aa54a8586eda qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-7 uboot: gpmi: update the mtd->ecc_stats when reading page failed
+b7db49f246d995c0f0e0cb1a9884aa54a8586eda f8c6dc20749ececc8809a611b62c3e315264ee2d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00217505-8 uboot: MX6Q-ARD: set the default gpmi clock to 20MHz
+f8c6dc20749ececc8809a611b62c3e315264ee2d 705d51112d4c7ad98a257480aab6ae45cc3bc641 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00180538-1 MFG download burn sd,spi, nand, nor failed.
+705d51112d4c7ad98a257480aab6ae45cc3bc641 d500e6dafab3cfe0c7f9d477919a80726217ad94 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00220824: mx6sl_evk: mmc: only SD1 supports 8bit on evk board.
+d500e6dafab3cfe0c7f9d477919a80726217ad94 7466792972e77e8ac47c92a71f19c334a0a92231 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00221150 Support spi-nor on manufacturing tool
+7466792972e77e8ac47c92a71f19c334a0a92231 80ac59abfcf1bc651615ff9167b969d414a6ffb0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00221135: imx6x: clear PowerDown Enable bit of WDOG1_WMCR
+80ac59abfcf1bc651615ff9167b969d414a6ffb0 0abc29187d1349705696bfb8aa9864cf657eadf6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00221332: U_BOOT: remove "boot" and "enable" from configs' name
+0abc29187d1349705696bfb8aa9864cf657eadf6 7e376306bacb027431b93471efb319d99e4a6091 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253510 +0800	am: ENGR00221013 MX6 SabreSD:Disable LVDS panel CABC function
+7e376306bacb027431b93471efb319d99e4a6091 ca0de27c0e9b56ab595b8441ad9b0750509884fc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00219316-1: mx6 sabreauto: enable mxc_gpio support
+ca0de27c0e9b56ab595b8441ad9b0750509884fc 97e2cbd73169cb2eed053624d0d2a02fa025b0b1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00219316-2: mx6q sabreauto enable lvds backlight by default
+97e2cbd73169cb2eed053624d0d2a02fa025b0b1 7cf06416430d9ec056045d3e2126eab6261614c6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00222005 mfgtool can't work on mx6sl
+7cf06416430d9ec056045d3e2126eab6261614c6 3e4504f6b59f8f1683b5ffa8740f458488d1b52b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00221503-1 cmd_imxotp: refine the help of this command.
+3e4504f6b59f8f1683b5ffa8740f458488d1b52b 4c77c4abcbf5a170d861665b42b24cde4bf5f710 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00221503-2 imx6: add cpu serial number support.
+4c77c4abcbf5a170d861665b42b24cde4bf5f710 bb74afcd12e0eedef7f5fa1d469d29a0510cc8d8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00222170: Add mx6sl_evk_android_config for mx6sl evk board
+bb74afcd12e0eedef7f5fa1d469d29a0510cc8d8 84ce66ec104c4ff6627154a4fd127e9d7cea7c40 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00223236-1 [MX6]Change the temperature range to -40C ~ 125C
+84ce66ec104c4ff6627154a4fd127e9d7cea7c40 0e2993a0fd14abe0f8658afba8704fb6c3f80c00 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00223027 Add support for nand on MFG for IMX6Q
+0e2993a0fd14abe0f8658afba8704fb6c3f80c00 47bb319010117086e72b775a8c70df1c24ba4a58 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00223788 mx6sl_evk: change boot args to boot from mmc/sd
+47bb319010117086e72b775a8c70df1c24ba4a58 4262663c41c08b5fb7964b92b378df19fb7f4da0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00224272: MFG:i.mx6q/ARM2 enable CONFIG_CMD_IMXOTP to fix the build error
+4262663c41c08b5fb7964b92b378df19fb7f4da0 c21bfea03e80d4aa8be8cac9a1ab1f2e4ae84e22 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00224291:i.MX6Q/ARM2-LPDDR2:enable CONFIG_CMD_IMXOTP to fix the build error
+c21bfea03e80d4aa8be8cac9a1ab1f2e4ae84e22 cae2666671ef5fabd96bbe90d86669039b00a421 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00224313:i.MX6 general:enable CONFIG_CMD_IMXOTP to fix the build error
+cae2666671ef5fabd96bbe90d86669039b00a421 6e50ee03c967cdbbe4b67cf264111af006dc7085 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00225486 Support for spi-nor boot
+6e50ee03c967cdbbe4b67cf264111af006dc7085 82ba5544d5aa16d8b0ada6b9391eee966979f54d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253511 +0800	am: ENGR00225691 NAND support on i.MX6Solo ARD
+82ba5544d5aa16d8b0ada6b9391eee966979f54d 1db7b0c9a35a29bbf5b9594247845c1e53c62faa qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00226048 Fix weim nor for mfg tool
+1db7b0c9a35a29bbf5b9594247845c1e53c62faa cb371311680a55ee44acb05424cbb3f0d44e7625 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00223794 MX6 SabreSD:Enable LVDS panel pwm backlight
+cb371311680a55ee44acb05424cbb3f0d44e7625 726e815225be42f99bdfe9db13c8f60958e67849 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00223797-1 MX6 SabreSD:Align IPU related clocks with kernel
+726e815225be42f99bdfe9db13c8f60958e67849 ade523b5c77574c22b063be1e9e3c79e6a25e164 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00223797-2 MX6Q/DL CPU:Do not disable IPU display channel
+ade523b5c77574c22b063be1e9e3c79e6a25e164 10a31c773ac5fbea5229c9ed1b46988f90b835d3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00223797-3 IPUv3:Wait for sw reset finish
+10a31c773ac5fbea5229c9ed1b46988f90b835d3 1cd47201fa325ebc5dfcf8510e237a1685de270b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00228238 i.mx6/i.mx6dl: sabresd: add solo-ddr32bit support
+1cd47201fa325ebc5dfcf8510e237a1685de270b 64cfc64a6b41830d99a83dd7e24c9c1fcc303506 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00227413 Change configuration file names on AI
+64cfc64a6b41830d99a83dd7e24c9c1fcc303506 668cacfc6a467f4ff9f002cb01337f90aabc89a5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229456 Support for 64bit DDR configuration for ARD
+668cacfc6a467f4ff9f002cb01337f90aabc89a5 629b0c69a704cd9f2e61794140773c0406f48601 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229614 mx6: disable VDDPU by default, xpu will enable it if needed.
+629b0c69a704cd9f2e61794140773c0406f48601 bf867625d986c2ba42a74b097fcbd44a163cfe80 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229817: i.mx6dl/mx6solo_sabresd_config: fix the build issue
+bf867625d986c2ba42a74b097fcbd44a163cfe80 f782b2910358309714cf90b34dd4cb36dbfa668f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229709 Support 2 processors at Linux boot
+f782b2910358309714cf90b34dd4cb36dbfa668f 94db60fe69cb9ed34ed6d7903bf394896e335072 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229711 Add weim-nor argument on uboot config Quad/DL
+94db60fe69cb9ed34ed6d7903bf394896e335072 c1a8e651e5fb7ea96bacce90d743143c605805a8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229789 AHCI Disable SATA PHY in initialization
+c1a8e651e5fb7ea96bacce90d743143c605805a8 71d9b1dea6ca975e294f8292d7775a62f0298d1b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00229931 Support for Solo configuration on ARD platform
+71d9b1dea6ca975e294f8292d7775a62f0298d1b d0f849873696e1e6b775b909e08c6cc0f3287393 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253512 +0800	am: ENGR00230334: Fix the mx53_smd_android config
+d0f849873696e1e6b775b909e08c6cc0f3287393 d7e4ef133a4ec2b1e15875e90e4075d551c07f3c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00230104 mx6q_sabreauto_nand: fix fec phy address
+d7e4ef133a4ec2b1e15875e90e4075d551c07f3c 723fd48963188fc108419fe2f440ff4666d50b25 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00230391: Fix build fail issue of sata
+723fd48963188fc108419fe2f440ff4666d50b25 be2c77a7d6c38994974462dda376be900dbabf92 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00231155 add enable_wait_mode=off for all the mx6q/dl mfg uboot
+be2c77a7d6c38994974462dda376be900dbabf92 32511c60b070bb1a8fc4a577defac0751c45d0c5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00230981-1 pfuze:set all switches to PFM mode in standby
+32511c60b070bb1a8fc4a577defac0751c45d0c5 184d36a8c2e146a3b330d8c7816f861a1fad8de4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00231553: MX6SL: Uncovered an issue for I2C parent clock
+184d36a8c2e146a3b330d8c7816f861a1fad8de4 2602897fbc6c6bb05a4db7e6e85bc01cd4fe857c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00230967 Enable recovery mode by keys when boot
+2602897fbc6c6bb05a4db7e6e85bc01cd4fe857c ded73abdb3b55874729439d05ab131ee0bfdf0f5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00231581 BCH: fix the wrong data size macros in BCH
+ded73abdb3b55874729439d05ab131ee0bfdf0f5 6d2f0ff3eabf7e5ef82aebff10e50c258c7cabd2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00231781 fsl common:Align reversed color logo to standard
+6d2f0ff3eabf7e5ef82aebff10e50c258c7cabd2 8906d9c8d6312b6be7d9f3bac8ac54c6b5e326a6 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00231891-1 gpmi: replace the hardcode
+8906d9c8d6312b6be7d9f3bac8ac54c6b5e326a6 6c270531ce98665e8f5ab44389dcdc5ccfc47a73 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00231891-2 gpmi: fix the 4k page size limit
+6c270531ce98665e8f5ab44389dcdc5ccfc47a73 aa8e181b6c9c7e234ff2ea173cc80795738c1ec8 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR002232258 MX6Q-ARM2: add a NAND boot config for uboot
+aa8e181b6c9c7e234ff2ea173cc80795738c1ec8 46d6b8de4fc16385eb4082ad45299e63d1484507 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253513 +0800	am: ENGR00230364 - imx6sl: FEC: fix cycle reboot fail in EVK platform for bootp.
+46d6b8de4fc16385eb4082ad45299e63d1484507 d02b1ec65a1964e0e74995aa403881482bdf9837 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00232682 mx6sl snvs: fix long press ONOFF failed issue in u-boot
+d02b1ec65a1964e0e74995aa403881482bdf9837 3312a793d7c0f7cadbc3550ee4fe73bf38ad6c3f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233307 Need secure/encrypted boot for Widevine support.
+3312a793d7c0f7cadbc3550ee4fe73bf38ad6c3f 07c661f5dee0bdcdd6e9ff2218173d7aeddb16a4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233730 PFUZE mx6q_sabresd: remove extra increase for PFUZE tolerance
+07c661f5dee0bdcdd6e9ff2218173d7aeddb16a4 78c40021aca49164358afddccf4bdeb976b6eed7 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233716-1: mx6q_sabreauto aling spi-nor environment offsset
+78c40021aca49164358afddccf4bdeb976b6eed7 5864c4d76af782692575d44b07ce8f2c3877ef6b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233716-2: mx6q_sabreauto flash u-boot into spi-nor fails to boot
+5864c4d76af782692575d44b07ce8f2c3877ef6b a6f7117e08c69c935e03641cf409af0dce211043 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233881 Camera mx6q_sabresd:swap VGEN5&VGEN3 to fix camera streaks issue
+a6f7117e08c69c935e03641cf409af0dce211043 cc9382391aa4e460087190a1cd67e6d8fe9b842c qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233709-1 i.mx6dl/sabreauto: update the DDR script for i.mx6dl AI board:
+cc9382391aa4e460087190a1cd67e6d8fe9b842c 769dc5c491ef07d4539b7e40e7e027a491c390e2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233709-2 i.mx6q/sabreauto: update the DDR script for i.mx6q AI board:
+769dc5c491ef07d4539b7e40e7e027a491c390e2 059deb1953d7939714a3d465acaa40b763b57c43 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233933 i.mx6dl/sabresd: update the DDR script for i.MX6DL sabresd board
+059deb1953d7939714a3d465acaa40b763b57c43 7eebf2deb060ece89607f7237252ffa98875f62a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233366-5 Anatop PFUZE: move LDO bypass code to kernel
+7eebf2deb060ece89607f7237252ffa98875f62a 165194faa3cd122f573dac25a6f89f6aa0848751 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00234353-1: mx6_sabreauto fix weim-nor boot
+165194faa3cd122f573dac25a6f89f6aa0848751 9d4aaa3f29f5a1b15f4b59137e9b13a2c477373d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00234353-2: mx6q_sabreauto_weimnor fix redundant env offset
+9d4aaa3f29f5a1b15f4b59137e9b13a2c477373d 6c7c5f8accec2b941ff3614fbd4b4952f4b653e3 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00234353-3: mx6q_sabreauto remove EIM_A24 nor pads
+6c7c5f8accec2b941ff3614fbd4b4952f4b653e3 15c51db29ed4d46d407d327e541b9f25ff2ff399 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233928 i.mx6q/sabresd: update the DDR script for i.MX6Q sabresd board
+15c51db29ed4d46d407d327e541b9f25ff2ff399 40635d71bc1ae0c9ba3fcf42457092e5d122cc7a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253514 +0800	am: ENGR00233168 - U-Boot fails to boot from eMMC
+40635d71bc1ae0c9ba3fcf42457092e5d122cc7a 57b9f21d9d9c8d35dcfdc65cdbd287b6ef5e01b5 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00223037 fsl: Add new board HDMI dongle for imx6 Q/DL.
+57b9f21d9d9c8d35dcfdc65cdbd287b6ef5e01b5 63efed08566aa6a9821f21b7a2bed2a246992d55 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00235564: i.mx6 u-boot: change plugin to use ROM API table for code jump
+63efed08566aa6a9821f21b7a2bed2a246992d55 c255556dd204ffbc5398514fc343d6451a43cdd4 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR000234991 MX6DL/ARD: Two boards met kernel dump during boot up
+c255556dd204ffbc5398514fc343d6451a43cdd4 299383101d4291096cb29f3b28e74b764677c40f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00236337: mx6/clock: emi_slow clock rate is not printed out correctly
+299383101d4291096cb29f3b28e74b764677c40f 0369e587e4da825a5417b0f63dbf6b5a2bef800b qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00235817 mx6: use SNVS LPGPR register to store boot mode value.
+0369e587e4da825a5417b0f63dbf6b5a2bef800b 4674e49f98ae57c828e185b554d045ee6700347a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00236620: Add Android fastboot and recovery reboot support
+4674e49f98ae57c828e185b554d045ee6700347a 7e1508305e791e179825f36905a7ef0ddfb92a68 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00235821 mx6: correct work flow of PFDs
+7e1508305e791e179825f36905a7ef0ddfb92a68 6f83a7ccb6473d5e83491f72c3d0aa830bcf0956 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00236902: mx6solo_sabresd: update the DDR script for solo-sabresd
+6f83a7ccb6473d5e83491f72c3d0aa830bcf0956 98cb31c82114553de9ce927f2cec43f9863250dc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00236472 Update DDR script of ARD solo emulation
+98cb31c82114553de9ce927f2cec43f9863250dc 6a4a8d55ea9ccf065e98096269618f4de9e94acc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253515 +0800	am: ENGR00235540 add sabreauto_6q config for android
+6a4a8d55ea9ccf065e98096269618f4de9e94acc 8e8715419b61b820d36c177faa64a7bbe6637114 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00238048: Add support for processor serial ATAG in uboot for iMX53
+8e8715419b61b820d36c177faa64a7bbe6637114 6df9296ddb5e73778d154f47000a3aaf8ab85d9a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00238300: enhance the download speed for fastboot
+6df9296ddb5e73778d154f47000a3aaf8ab85d9a 50e71fb8089d366f59ce5988aca73de44dbfad15 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00238371: mx6solo: sabresd: make system prompt indicate solo config
+50e71fb8089d366f59ce5988aca73de44dbfad15 f076245d574f8d8cd3c966371520625dd2f5c803 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00238834: mx6solo: add MFG support for mx6solo sabresd board
+f076245d574f8d8cd3c966371520625dd2f5c803 087234ed93410ffe3f41c3cd2a213f32e408da53 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00238363: mx6dl: epdc: remove epdc macro redefinition in config file
+087234ed93410ffe3f41c3cd2a213f32e408da53 48b307612ab68352d2a405e874067c69db28dbed qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00230437: mx6: epdc: EPDC I/O setup after V3p3 is enable
+48b307612ab68352d2a405e874067c69db28dbed bdba46cc7227beba9b5e27f5a1eb7a8350c44e33 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00239366: Add support for nand storage in quick fastboot
+bdba46cc7227beba9b5e27f5a1eb7a8350c44e33 5634e34d42ae91dcbaf8f42e0f4c830ad425a1c0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00239607 add nand config for android sabreauto
+5634e34d42ae91dcbaf8f42e0f4c830ad425a1c0 5c15ee4af212b970e41462399197b4c11dbabda2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00239610: Enhance the quick fastboot stability
+5c15ee4af212b970e41462399197b4c11dbabda2 3769b57b8165de8070d1f7f748fe6584d92a6c44 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00240261 support fastboot for nand boot in sabreauto_android
+3769b57b8165de8070d1f7f748fe6584d92a6c44 df8c0b0062dfac54301b49492aec34d42406baa0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00241595-1 mx6q-sabresd:Enable SATA PHY PDDQ default
+df8c0b0062dfac54301b49492aec34d42406baa0 ff2103ec706d3ede9a3c633a664ddbd008c053dc qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00241595-2 mx6q-arm2:Enable SATA PHY PDDQ default
+ff2103ec706d3ede9a3c633a664ddbd008c053dc e9b1f1e588c6f324ad13bfaec276b3c89ec6aada qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00241595-3 mx6q-sabreauto:Enable SATA PHY PDDQ default
+e9b1f1e588c6f324ad13bfaec276b3c89ec6aada ec3ad085ffde59cc24570aa9be0b507fd247a11d qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253516 +0800	am: ENGR00241595-4 mx6q-hdmidongle:Enable SATA PHY PDDQ default
+ec3ad085ffde59cc24570aa9be0b507fd247a11d 120d5ec989937a4c27e0c7c9b4fb65b5c974ec6a qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00242042 MX6DQ/DL: fix boot fail issue on mx6dl boards
+120d5ec989937a4c27e0c7c9b4fb65b5c974ec6a ccd1bcfd4845f26f4a75015a3bfb130856ed2d40 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00243038: make get_mmc_env_devno to be a generic function
+ccd1bcfd4845f26f4a75015a3bfb130856ed2d40 c64b44105165687b964dc94b6c0ab156da923a2f qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00244769-3 [NOR FLASH]-Improve WEIM NOR speed
+c64b44105165687b964dc94b6c0ab156da923a2f 8e898b08a190498e77b630e5bb8830aeb08e05cd qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00255481 mx6: Update equation for thermal sensor
+8e898b08a190498e77b630e5bb8830aeb08e05cd 92ab57a8f10568b4ec49a2abbcfa3577864b30e0 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00256543 mx6: Update equation for thermal sensor on i.MX6DL
+92ab57a8f10568b4ec49a2abbcfa3577864b30e0 db7c72de9697b239b454f7546223e0497c22f9f2 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00254470-1 mx6q-sd:sata device can't work properly on most boards
+db7c72de9697b239b454f7546223e0497c22f9f2 8c58a3a8ae4ddbfeebb0eb0955e4d02272c26ac1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00254470-2 mx6q-arm2:sata device can't work properly on most boards
+8c58a3a8ae4ddbfeebb0eb0955e4d02272c26ac1 48233c5758d4d02b5f6c0fc7b8d8a4ce91e826ff qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00254470-3 mx6q-sabreauto:sata device can't work properly on most boards
+48233c5758d4d02b5f6c0fc7b8d8a4ce91e826ff 89ad783044aa82c34974f226624a4b452a86adc1 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00254470-4 mx6q-hdmidongle:sata device can't work properly on most boards
+89ad783044aa82c34974f226624a4b452a86adc1 8b13c1b2ba5df8c767328ab29026dbe9cbd9be23 qinbh <qinbh@qinbh-VGN-Z29N-X.(none)> 1372253517 +0800	am: ENGR00254091 fastboot: add reboot command for quick fastboot
