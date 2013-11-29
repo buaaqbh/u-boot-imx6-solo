@@ -787,6 +787,32 @@ static int setup_pmic_voltages(void)
 			printf("Set VGEN5 error!\n");
 			return -1;
 		}
+		if (i2c_read(0x8, 0x66, 1, &value, 1)) {
+			printf("Read SWBST error!\n");
+			return -1;
+		}
+//		printf("SWBST voltage = 0x%x\n", value);
+		value &= ~0x6f;
+		value |= 0x48;
+		if (i2c_write(0x8, 0x66, 1, &value, 1)) {
+			printf("Set SWBST error!\n");
+			return -1;
+		}
+//		printf("SWBST voltage = 0x%x\n", value);
+
+		if (i2c_read(0x8, 0x35, 1, &value, 1)) {
+			printf("Read VGEN3 error!\n");
+			return -1;
+		}
+//		printf("SW2 voltage = 0x%x\n", value);
+		value &= ~0x7f;
+		value |= 0x72;
+		if (i2c_write(0x8, 0x35, 1, &value, 1)) {
+			printf("Set VGEN5 error!\n");
+			return -1;
+		}
+//		printf("SW2 voltage = 0x%x\n", value);
+
 	}
 }
 #endif
@@ -1034,6 +1060,7 @@ int usdhc_gpio_init(bd_t *bis)
 {
 	s32 status = 0;
 	u32 index = 0;
+	int reg;
 
 	for (index = 0; index < CONFIG_SYS_FSL_USDHC_NUM;
 		++index) {
@@ -1066,6 +1093,18 @@ int usdhc_gpio_init(bd_t *bis)
 		}
 		status |= fsl_esdhc_initialize(bis, &usdhc_cfg[index]);
 	}
+/*
+	mxc_iomux_v3_setup_pad(MX6DL_PAD_SD3_DAT3__GPIO_7_7);
+
+	reg = readl(GPIO7_BASE_ADDR + GPIO_GDIR);
+	reg |= (1 << 7);
+	writel(reg, GPIO7_BASE_ADDR + GPIO_GDIR);
+
+	reg = readl(GPIO7_BASE_ADDR + GPIO_DR);
+//	reg |= (1 << 7);
+	reg &= (~(1 << 7));
+	writel(reg, GPIO7_BASE_ADDR + GPIO_DR);
+*/
 
 	return status;
 }
