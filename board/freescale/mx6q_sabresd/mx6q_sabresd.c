@@ -771,7 +771,7 @@ static int setup_pmic_voltages(void)
 			return -1;
 		}
 		value &= ~0xf;
-		value |= 0xa;
+		value |= 0x1f;
 		if (i2c_write(0x8, 0x6e, 1, &value, 1)) {
 			printf("Set VGEN3 error!\n");
 			return -1;
@@ -787,6 +787,22 @@ static int setup_pmic_voltages(void)
 			printf("Set VGEN5 error!\n");
 			return -1;
 		}
+		if (i2c_read(0x8, 0x66, 1, &value, 1)) {
+			printf("Read SWBST error!\n");
+			return -1;
+		}
+		/*increase VGEN6 from 2.8 to 3V*/
+		if (i2c_read(0x8, 0x71, 1, &value, 1)) {
+			printf("Read VGEN6 error!\n");
+			return -1;
+		}
+		value &= ~0xf;
+		value |= 0xf;
+		if (i2c_write(0x8, 0x71, 1, &value, 1)) {
+			printf("Set VGEN6 error!\n");
+			return -1;
+		}
+
 		if (i2c_read(0x8, 0x66, 1, &value, 1)) {
 			printf("Read SWBST error!\n");
 			return -1;
@@ -812,7 +828,6 @@ static int setup_pmic_voltages(void)
 			return -1;
 		}
 //		printf("SW2 voltage = 0x%x\n", value);
-
 	}
 }
 #endif
