@@ -492,6 +492,7 @@ extern void davinci_eth_set_mac_addr (const u_int8_t *addr);
 #ifdef CONFIG_FASTBOOT
 	check_fastboot_mode();
 #endif
+//	printf("gd = 0x%x \n", (unsigned int)gd);
 	/* main_loop() can return to retry autoboot, if so just run it again. */
 	for (;;) {
 		main_loop ();
